@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, Clock, Eye } from 'lucide-react'
 import { findPostByLocaleSlug, getAllPosts } from '@/lib/blog'
 import { getMdxComponent } from '@/lib/blogContent'
 import { useLocale, localePath } from '@/lib/hooks/useLocale'
+import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
 import { formatDate } from '@/lib/utils'
 import { LikeButton } from '@/components/blog/LikeButton'
 import { RelatedPosts } from '@/components/blog/RelatedPosts'
@@ -24,12 +25,22 @@ export default function BlogPost() {
     [post, locale],
   )
 
+  const title = post ? t(`posts.${post.slug}.title`) : tc('notFound.title')
+  const excerpt = post
+    ? (t(`posts.${post.slug}.excerpt`) as string)
+    : tc('notFound.description')
+
+  useDocumentMeta({
+    title,
+    description: excerpt,
+    ogImage: post?.image,
+  })
+
   if (!post) {
     return <Navigate to={localePath(locale, '/blog')} replace />
   }
 
   const blogIndex = localePath(locale, '/blog')
-  const title = t(`posts.${post.slug}.title`)
   const imageAlt = t(`posts.${post.slug}.imageAlt`, { defaultValue: '' })
   const readingTime = t(`posts.${post.slug}.readingTime`, { defaultValue: 5 })
 

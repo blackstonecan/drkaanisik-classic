@@ -31,6 +31,7 @@
     "portfolioBy": "Frontend: Emre Can Karataş"
   },
   "loading": "Yükleniyor…",
+  "skipToContent": "İçeriğe atla",
   "notFound": {
     "title": "Sayfa Bulunamadı",
     "description": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir.",

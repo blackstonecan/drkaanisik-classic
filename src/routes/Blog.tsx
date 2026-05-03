@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { getAllPosts } from '@/lib/blog'
 import { useDebouncedValue } from '@/lib/hooks/useDebouncedValue'
 import { useLocale } from '@/lib/hooks/useLocale'
+import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
 import { BlogFilters } from '@/components/blog/BlogFilters'
 import { BlogList } from '@/components/blog/BlogList'
 import { PopularCategories } from '@/components/blog/PopularCategories'
@@ -19,6 +20,11 @@ export default function Blog() {
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState<string | null>(null)
   const debouncedSearch = useDebouncedValue(search, 200)
+
+  useDocumentMeta({
+    title: t('ui.title'),
+    description: t('ui.lede'),
+  })
 
   const filtered = useMemo(() => {
     const q = debouncedSearch.trim().toLowerCase()

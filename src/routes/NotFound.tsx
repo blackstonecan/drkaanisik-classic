@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLocale, localePath } from '@/lib/hooks/useLocale'
+import { useDocumentMeta } from '@/lib/hooks/useDocumentMeta'
 
 export default function NotFound() {
   const { t } = useTranslation('common')
   const locale = useLocale()
+
+  useDocumentMeta({
+    title: t('notFound.title'),
+    description: t('notFound.description'),
+  })
+
   return (
     <section className="container-page py-24 text-center">
       <h1 className="font-display text-4xl font-semibold text-trust-700">

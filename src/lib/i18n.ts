@@ -1,29 +1,5 @@
-import i18n from 'i18next'
+import i18n, { type BackendModule, type ResourceKey } from 'i18next'
 import { initReactI18next } from 'react-i18next'
-
-import trCommon from '@/locales/tr/common.json'
-import trHome from '@/locales/tr/home.json'
-import trServices from '@/locales/tr/services.json'
-import trBlog from '@/locales/tr/blog.json'
-import trTour from '@/locales/tr/tour.json'
-import trContact from '@/locales/tr/contact.json'
-import trFaq from '@/locales/tr/faq.json'
-
-import enCommon from '@/locales/en/common.json'
-import enHome from '@/locales/en/home.json'
-import enServices from '@/locales/en/services.json'
-import enBlog from '@/locales/en/blog.json'
-import enTour from '@/locales/en/tour.json'
-import enContact from '@/locales/en/contact.json'
-import enFaq from '@/locales/en/faq.json'
-
-import deCommon from '@/locales/de/common.json'
-import deHome from '@/locales/de/home.json'
-import deServices from '@/locales/de/services.json'
-import deBlog from '@/locales/de/blog.json'
-import deTour from '@/locales/de/tour.json'
-import deContact from '@/locales/de/contact.json'
-import deFaq from '@/locales/de/faq.json'
 
 export const SUPPORTED_LOCALES = ['tr', 'en', 'de'] as const
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
@@ -40,45 +16,47 @@ export const NAMESPACES = [
 ] as const
 export type Namespace = (typeof NAMESPACES)[number]
 
-const resources = {
-  tr: {
-    common: trCommon,
-    home: trHome,
-    services: trServices,
-    blog: trBlog,
-    tour: trTour,
-    contact: trContact,
-    faq: trFaq,
-  },
-  en: {
-    common: enCommon,
-    home: enHome,
-    services: enServices,
-    blog: enBlog,
-    tour: enTour,
-    contact: enContact,
-    faq: enFaq,
-  },
-  de: {
-    common: deCommon,
-    home: deHome,
-    services: deServices,
-    blog: deBlog,
-    tour: deTour,
-    contact: deContact,
-    faq: deFaq,
-  },
-} as const
+type LocaleModule = { default: ResourceKey }
 
-void i18n.use(initReactI18next).init({
-  resources,
-  lng: DEFAULT_LOCALE,
-  fallbackLng: DEFAULT_LOCALE,
-  ns: [...NAMESPACES],
-  defaultNS: 'common',
-  interpolation: { escapeValue: false },
-  returnNull: false,
-})
+// Vite turns each JSON into its own dynamically-imported chunk, so the main
+// bundle ships none of the translation data; only what's needed for the
+// current locale is loaded.
+const localeFiles = import.meta.glob<LocaleModule>(
+  '/src/locales/(tr|en|de)/*.json',
+)
+
+const viteGlobBackend: BackendModule = {
+  type: 'backend',
+  init: () => {
+    /* no-op */
+  },
+  read: (locale, namespace, callback) => {
+    const path = `/src/locales/${locale}/${namespace}.json`
+    const loader = localeFiles[path]
+    if (!loader) {
+      callback(new Error(`Missing locale file: ${path}`), false as never)
+      return
+    }
+    loader().then(
+      (mod) => callback(null, mod.default),
+      (err) => callback(err as Error, false as never),
+    )
+  },
+}
+
+export const i18nReady = i18n
+  .use(viteGlobBackend)
+  .use(initReactI18next)
+  .init({
+    lng: DEFAULT_LOCALE,
+    fallbackLng: DEFAULT_LOCALE,
+    ns: [...NAMESPACES],
+    defaultNS: 'common',
+    interpolation: { escapeValue: false },
+    returnNull: false,
+    partialBundledLanguages: true,
+    react: { useSuspense: false },
+  })
 
 export function isLocale(value: string | undefined): value is Locale {
   return !!value && (SUPPORTED_LOCALES as readonly string[]).includes(value)
