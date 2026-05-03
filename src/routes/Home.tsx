@@ -1,16 +1,23 @@
-import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
+import { PortfolioPopup } from '@/components/home/PortfolioPopup'
+import { shouldShowPortfolioPopup } from '@/components/home/portfolioPopupStorage'
+import { HeroVideo } from '@/components/home/HeroVideo'
+import { DoctorSection } from '@/components/home/DoctorSection'
+import { ServicesSection } from '@/components/home/ServicesSection'
+import { FAQSection } from '@/components/home/FAQSection'
+import { ContactSection } from '@/components/home/ContactSection'
 
 export default function Home() {
-  const { t, i18n } = useTranslation('common')
+  const [popupOpen, setPopupOpen] = useState(() => shouldShowPortfolioPopup())
+
   return (
-    <section className="container-page py-24">
-      <h1 className="font-display text-4xl font-semibold text-trust-700">
-        {t('brand.name')}
-      </h1>
-      <p className="mt-2 text-trust-700/70">{t('brand.role')}</p>
-      <p className="mt-6 text-sm text-trust-700/60">
-        Locale: <code>{i18n.resolvedLanguage}</code> — Phase 0 skeleton. Homepage sections arrive in Phase 3.
-      </p>
-    </section>
+    <>
+      <PortfolioPopup open={popupOpen} onClose={() => setPopupOpen(false)} />
+      <HeroVideo paused={popupOpen} />
+      <DoctorSection />
+      <ServicesSection />
+      <FAQSection />
+      <ContactSection />
+    </>
   )
 }
