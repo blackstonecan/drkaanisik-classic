@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Kalp ve Damar Cerrahı"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "clinicTour": "Klinik Turu",
+    "services": "Hizmetler",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "language": {
+    "label": "Dil",
+    "tr": "Türkçe",
+    "en": "İngilizce",
+    "de": "Almanca"
+  },
+  "actions": {
+    "getInTouch": "İletişime Geç",
+    "readMore": "Devamını Oku",
+    "viewAll": "Tümünü Gör",
+    "expand": "Genişlet",
+    "collapse": "Daralt",
+    "close": "Kapat",
+    "back": "Geri"
+  },
+  "footer": {
+    "copyright": "© 2026 Op. Dr. Kaan Işık. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik",
+    "portfolioBy": "Frontend: Emre Can Karataş"
+  },
+  "loading": "Yükleniyor…",
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir.",
+    "cta": "Ana Sayfaya Dön"
+  }
+}

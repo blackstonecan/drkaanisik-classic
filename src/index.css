@@ -1,7 +1,0 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
-
-:root {
-  --color-trust: #0E5E6F;
-  --color-accent: #E8A87C;
-}

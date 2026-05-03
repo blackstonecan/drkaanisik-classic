@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Cardiac Surgeon"
+  },
+  "nav": {
+    "home": "Home",
+    "clinicTour": "Clinic Tour",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "language": {
+    "label": "Language",
+    "tr": "Turkish",
+    "en": "English",
+    "de": "German"
+  },
+  "actions": {
+    "getInTouch": "Get in Touch",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "close": "Close",
+    "back": "Back"
+  },
+  "footer": {
+    "copyright": "© 2026 Op. Dr. Kaan Işık. All rights reserved.",
+    "privacy": "Privacy",
+    "portfolioBy": "Frontend by Emre Can Karataş"
+  },
+  "loading": "Loading…",
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to Home"
+  }
+}

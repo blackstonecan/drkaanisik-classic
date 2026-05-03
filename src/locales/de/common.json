@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Op. Dr. Kaan Işık",
+    "role": "Herzchirurg"
+  },
+  "nav": {
+    "home": "Startseite",
+    "clinicTour": "Klinikrundgang",
+    "services": "Leistungen",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "label": "Sprache",
+    "tr": "Türkisch",
+    "en": "Englisch",
+    "de": "Deutsch"
+  },
+  "actions": {
+    "getInTouch": "Kontakt aufnehmen",
+    "readMore": "Mehr lesen",
+    "viewAll": "Alle ansehen",
+    "expand": "Aufklappen",
+    "collapse": "Zuklappen",
+    "close": "Schließen",
+    "back": "Zurück"
+  },
+  "footer": {
+    "copyright": "© 2026 Op. Dr. Kaan Işık. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "portfolioBy": "Frontend von Emre Can Karataş"
+  },
+  "loading": "Wird geladen…",
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück zur Startseite"
+  }
+}
