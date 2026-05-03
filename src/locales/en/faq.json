@@ -1,1 +1,28 @@
-{}
+{
+  "items": {
+    "what-is-midcab": {
+      "question": "What exactly is MIDCAB, and who is it for?",
+      "answer": "MIDCAB (Minimally Invasive Direct Coronary Artery Bypass) is a coronary bypass technique performed through a 5–8 cm incision in the left chest wall — without dividing the breastbone. It is typically recommended for patients with single-vessel disease of the left anterior descending (LAD) artery, or for selected multi-vessel patients suited to a hybrid approach. Compared with classic bypass, recovery is faster, pain is less, and hospital stay is shorter."
+    },
+    "tavi-eligibility": {
+      "question": "Who is a candidate for TAVI?",
+      "answer": "TAVI is primarily offered to patients with severe aortic stenosis who are at high surgical risk — typically older patients or those with significant comorbidities such as advanced lung or kidney disease. The decision is taken by a heart team (surgeon, cardiologist, anesthetist) and is always individualised."
+    },
+    "international-patient-process": {
+      "question": "I’m coming from abroad — how does the process work?",
+      "answer": "We start with your cardiac reports and imaging, sent by email or WhatsApp. Within the same week we arrange a free video consultation. If you decide to proceed, we organise airport transfer, accommodation, EN/DE on-site translators, and full hospital coordination. Telemedicine follow-up runs for the first six weeks after surgery."
+    },
+    "hospitalization-duration": {
+      "question": "How long is the hospital stay after surgery?",
+      "answer": "After an uncomplicated bypass or valve operation, the typical stay is 5–7 days. For minimally invasive procedures such as MIDCAB and TAVI, it can be as short as 3–4 days. The first follow-up appointment is usually 7–10 days after discharge."
+    },
+    "second-opinion": {
+      "question": "Can I book an appointment for a second opinion?",
+      "answer": "Of course. You can book a consultation and bring your existing reports — we will review your current treatment plan with you. We treat second opinions as informational, not judgemental."
+    },
+    "languages-supported": {
+      "question": "Which languages do you offer?",
+      "answer": "We provide full-time service in Turkish, English, and German. Op. Dr. Kaan Işık is fluent in all three languages; reports and correspondence can be prepared in your preferred language."
+    }
+  }
+}

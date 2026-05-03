@@ -1,1 +1,28 @@
-{}
+{
+  "items": {
+    "what-is-midcab": {
+      "question": "Was genau ist MIDCAB und für wen ist es geeignet?",
+      "answer": "MIDCAB (Minimalinvasiver direkter Koronarbypass) ist ein Bypass-Verfahren, das über einen 5–8 cm großen Schnitt an der linken Brustwand durchgeführt wird — ohne das Brustbein zu durchtrennen. Es eignet sich vor allem für Patientinnen und Patienten mit Eingefäßerkrankung der LAD oder für ausgewählte Mehrgefäßfälle im hybriden Ansatz. Im Vergleich zum klassischen Bypass sind die Erholung schneller, die Schmerzen geringer und der Krankenhausaufenthalt kürzer."
+    },
+    "tavi-eligibility": {
+      "question": "Wer kommt für eine TAVI infrage?",
+      "answer": "TAVI wird vor allem Patientinnen und Patienten mit schwerer Aortenstenose und hohem chirurgischem Risiko angeboten — typischerweise älteren Menschen oder Personen mit erheblichen Begleiterkrankungen wie fortgeschrittener Lungen- oder Nierenerkrankung. Die Entscheidung trifft ein Herzteam (Chirurg, Kardiologe, Anästhesist) immer individuell."
+    },
+    "international-patient-process": {
+      "question": "Ich komme aus dem Ausland — wie ist der Ablauf?",
+      "answer": "Wir beginnen mit Ihren Herzbefunden und Bildgebungen, die Sie per E-Mail oder WhatsApp senden. Noch in derselben Woche vereinbaren wir eine kostenfreie Video-Sprechstunde. Bei einem Eingriff organisieren wir Flughafentransfer, Unterkunft, EN/DE-Vor-Ort-Dolmetscher und die gesamte Klinikkoordination. Eine telemedizinische Nachsorge läuft sechs Wochen nach der Operation weiter."
+    },
+    "hospitalization-duration": {
+      "question": "Wie lange dauert der Krankenhausaufenthalt nach der Operation?",
+      "answer": "Nach einem unkomplizierten Bypass- oder Klappeneingriff sind es typischerweise 5–7 Tage. Bei minimalinvasiven Verfahren wie MIDCAB und TAVI kann der Aufenthalt auf 3–4 Tage verkürzt werden. Der erste Kontrolltermin findet üblicherweise 7–10 Tage nach Entlassung statt."
+    },
+    "second-opinion": {
+      "question": "Kann ich einen Termin für eine Zweitmeinung vereinbaren?",
+      "answer": "Selbstverständlich. Sie können einen Beratungstermin vereinbaren und uns Ihre vorhandenen Befunde mitbringen — wir besprechen Ihren aktuellen Behandlungsplan mit Ihnen gemeinsam. Wir verstehen die Zweitmeinung ausdrücklich informativ, nicht wertend."
+    },
+    "languages-supported": {
+      "question": "In welchen Sprachen sind Sie erreichbar?",
+      "answer": "Wir bieten ganztägige Betreuung auf Türkisch, Englisch und Deutsch. Op. Dr. Kaan Işık spricht alle drei Sprachen fließend; Befunde und Schriftverkehr stellen wir auf Wunsch in Ihrer bevorzugten Sprache aus."
+    }
+  }
+}

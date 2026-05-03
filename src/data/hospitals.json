@@ -1,0 +1,7 @@
+{
+  "hospitals": [
+    { "slug": "ozel-medical-park", "name": "Medical Park Antalya Hastanesi", "city": "Antalya" },
+    { "slug": "anadolu-saglik", "name": "Anadolu Sağlık Merkezi (Antalya Şubesi)", "city": "Antalya" },
+    { "slug": "ozel-akdeniz", "name": "Özel Akdeniz Şifa Hastanesi", "city": "Antalya" }
+  ]
+}

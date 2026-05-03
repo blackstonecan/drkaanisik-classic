@@ -1,1 +1,71 @@
-{}
+{
+  "popup": {
+    "title": "This is a portfolio sample site",
+    "body": "This website is a frontend portfolio project built by Emre Can Karataş. Op. Dr. Kaan Işık is a fictional persona — none of the information presented here belongs to a real medical professional.",
+    "dismiss": "Understood, continue",
+    "closeLabel": "Close"
+  },
+  "hero": {
+    "title": "Modern cardiac surgery, in trusted hands.",
+    "subtitle": "German-trained minimally invasive techniques. Over 2,000 cardiac procedures from a Konyaaltı, Antalya practice.",
+    "cta": "Get in Touch",
+    "secondaryCta": "Clinic Tour"
+  },
+  "doctor": {
+    "kicker": "Meet",
+    "heading": "Op. Dr. Kaan Işık",
+    "role": "Cardiac Surgeon",
+    "shortBio": "After completing a minimally invasive cardiac surgery fellowship in Germany in 2014, Dr. Kaan Işık founded his Konyaaltı practice in 2018. He serves both local patients and international patients arriving from across Europe in three languages: Turkish, English, and German.",
+    "expandLabel": "Read full biography",
+    "collapseLabel": "Show less",
+    "education": {
+      "title": "Education",
+      "items": [
+        { "period": "2002–2008", "institution": "Koç University, School of Medicine", "detail": "MD" },
+        { "period": "2008–2014", "institution": "Istanbul University, Cerrahpaşa Faculty of Medicine", "detail": "Adult Cardiac Surgery Residency" },
+        { "period": "2014–2016", "institution": "Germany", "detail": "Fellowship in Minimally Invasive Cardiac Surgery" }
+      ]
+    },
+    "career": {
+      "title": "Career",
+      "items": [
+        "2016–2018: Cardiac surgeon at private hospitals across Turkey after returning from Germany.",
+        "2018–present: Founded his private clinic in Konyaaltı, Antalya. Now in his 8th year of practice.",
+        "Continues to perform surgeries at contracted private hospitals; the clinic functions as the consultation and follow-up centre."
+      ]
+    },
+    "memberships": {
+      "title": "Memberships",
+      "items": [
+        "TKDCD — Turkish Society of Cardiovascular Surgery",
+        "EACTS — European Association for Cardio-Thoracic Surgery"
+      ]
+    },
+    "specialization": {
+      "title": "Specialisation",
+      "body": "Adult cardiac surgery with particular focus on coronary bypass (including minimally invasive MIDCAB), heart valve surgery (TAVI and sutureless aortic valve replacement), and aortic surgery (aneurysms, dissections, root procedures)."
+    }
+  },
+  "stats": {
+    "heading": "Our experience in numbers",
+    "items": {
+      "surgeries": { "label": "Open-heart procedures" },
+      "experience": { "label": "Years in practice", "suffix": " yrs" },
+      "satisfaction": { "label": "Patient satisfaction" },
+      "languages": { "label": "Languages served", "sublabel": "TR · EN · DE" }
+    }
+  },
+  "services": {
+    "heading": "Our service areas",
+    "lede": "Comprehensive adult cardiac surgery, with a strong emphasis on modern and minimally invasive techniques.",
+    "viewProcedures": "Procedures"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "lede": "The questions our patients ask most often."
+  },
+  "contact": {
+    "heading": "Contact",
+    "lede": "Reach out directly for a consultation appointment or for guidance on the international patient process."
+  }
+}

@@ -1,1 +1,35 @@
-{}
+{
+  "addressLabel": "Address",
+  "phoneLabel": "Phone",
+  "emailLabel": "Email",
+  "openInMaps": "Open in Maps",
+  "form": {
+    "title": "Get in touch",
+    "lede": "Reach out for a consultation, a second opinion, or guidance on the international patient process.",
+    "name": { "label": "Full name", "placeholder": "Your full name" },
+    "phone": { "label": "Phone", "placeholder": "+90 5XX XXX XX XX" },
+    "email": { "label": "Email", "placeholder": "you@email.com" },
+    "message": { "label": "Message", "placeholder": "How can we help?" },
+    "preferredContact": "Preferred contact",
+    "switchToPhone": "Phone",
+    "switchToEmail": "Email",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "successToast": "Your message was received (this site is a portfolio sample — no real submission is made).",
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "phoneRequired": "Please enter a valid phone number.",
+      "emailRequired": "Please enter a valid email address.",
+      "messageRequired": "Please write a message."
+    }
+  },
+  "social": {
+    "instagramLabel": "Follow on Instagram",
+    "whatsappLabel": "Message on WhatsApp",
+    "whatsappFloatLabel": "Contact us on WhatsApp"
+  },
+  "international": {
+    "title": "International Patients",
+    "body": "For patients arriving from abroad we coordinate video consultations, airport transfer, accommodation, EN/DE on-site translators, and post-operative telemedicine follow-up — end to end."
+  }
+}

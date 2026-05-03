@@ -1,1 +1,105 @@
-{}
+{
+  "coronary-artery-surgery": {
+    "title": "Koroner Arter Cerrahisi",
+    "shortDescription": "Tıkalı koroner damarların etrafına yeni bir kan yolu oluşturmak için uygulanan bypass prosedürleri.",
+    "description": "Koroner arter hastalığında kalbi besleyen damarların darlık veya tıkanıklığı, bypass cerrahisi ile aşılır. Klinik yaklaşımımız mümkün olduğunca minimal invaziv tekniklere yöneliktir.",
+    "procedures": {
+      "midcab": {
+        "title": "MIDCAB",
+        "shortDescription": "Minimal invaziv direkt koroner bypass — sol meme altından küçük kesi.",
+        "description": "Sol göğüs duvarında 5–8 cm'lik küçük bir kesiyle yapılan, sternotomi gerektirmeyen koroner bypass. Hızlı iyileşme ve daha az ağrı."
+      },
+      "off-pump-bypass": {
+        "title": "Off-pump bypass (atan kalpte bypass)",
+        "shortDescription": "Kalp-akciğer makinesi kullanmadan, atan kalp üzerinde uygulanan bypass.",
+        "description": "Kalp-akciğer pompasının yan etkilerinden kaçınmak için uygun hastalarda tercih edilir. Böbrek ve nörolojik komplikasyon risklerinde azalma sağlar."
+      },
+      "classic-cabg": {
+        "title": "Klasik açık bypass",
+        "shortDescription": "Geleneksel sternotomi ile yapılan koroner bypass.",
+        "description": "Çok damar tutulumu veya kompleks anatomide standart, kanıta dayalı yaklaşım. Uzun süreli açıklık oranları yüksektir."
+      }
+    }
+  },
+  "heart-valve-surgery": {
+    "title": "Kalp Kapak Cerrahisi",
+    "shortDescription": "Aort, mitral ve triküspit kapak hastalıklarında tamir veya değişim seçenekleri.",
+    "description": "Kapak yetmezliği ve darlığı, kalp yorulması ve nefes darlığına yol açar. Yaşa, kapak tipine ve risk profiline göre minimal invaziv veya transkateter çözümler sunulur.",
+    "procedures": {
+      "tavi": {
+        "title": "TAVI",
+        "shortDescription": "Transkateter aort kapak implantasyonu — açık ameliyat riski yüksek hastalar için.",
+        "description": "Genellikle ileri yaş veya yüksek cerrahi risk durumunda femoral arter yoluyla, göğsü açmadan yeni kapak yerleştirilir. Hastanede kalış süresi kısa."
+      },
+      "sutureless-aortic": {
+        "title": "Sutureless aort kapak değişimi",
+        "shortDescription": "Dikiş gerektirmeyen, hızlı yerleştirilen biyolojik aort kapağı.",
+        "description": "Cerrahi süresini kısaltır, kros klemp süresini azaltır. Yüksek riskli hastalarda alternatif bir cerrahi yaklaşım."
+      },
+      "mitral-repair": {
+        "title": "Mitral kapak tamiri",
+        "shortDescription": "Mümkünse hastanın kendi kapağını koruyan tamir prosedürü.",
+        "description": "Sağ taraflı mini torakotomi ile minimal invaziv olarak uygulanabilir. Uzun dönem sonuçları kapak değişiminden üstündür."
+      },
+      "mitral-replacement": {
+        "title": "Mitral kapak değişimi",
+        "shortDescription": "Tamir mümkün değilse mekanik veya biyolojik protez kapakla değişim.",
+        "description": "Hastanın yaşına ve antikoagülan kullanım uygunluğuna göre kapak tipi seçilir."
+      },
+      "tricuspid": {
+        "title": "Triküspit kapak cerrahisi",
+        "shortDescription": "Sol kalp cerrahisi sırasında ya da izole triküspit hastalıklarında.",
+        "description": "Çoğunlukla mitral cerrahisiyle birlikte uygulanır; izole triküspit yetersizliğinde de minimal invaziv seçenekler vardır."
+      }
+    }
+  },
+  "aortic-surgery": {
+    "title": "Aort Cerrahisi",
+    "shortDescription": "Aort anevrizması, diseksiyonu ve kök hastalıklarında cerrahi tedavi.",
+    "description": "Aort, vücudun ana atardamarıdır; genişleme veya yırtılma yaşamı tehdit eder. Acil ve elektif aort cerrahisi, kapak ve kök koruyucu prosedürler dahil tüm yelpazede çözüm sunulur.",
+    "procedures": {
+      "ascending-aneurysm": {
+        "title": "Asendan aort anevrizması",
+        "shortDescription": "Aortun göğüs içindeki ilk bölümünün genişlemesi.",
+        "description": "Belirli bir çapın üzerinde yırtılma riski artar. Plastik bir tüp greftle değişim standart tedavidir; gerektiğinde kapak ve kök birlikte ele alınır."
+      },
+      "aortic-dissection": {
+        "title": "Aort diseksiyonu",
+        "shortDescription": "Aort duvarının yırtılmasıyla oluşan acil tablo.",
+        "description": "Tip A diseksiyon hayati tehlike taşır; saatler içinde cerrahi onarım gerektirir. 7/24 acil müdahale kapasitesi koroner ekibimizin önceliğidir."
+      },
+      "bentall": {
+        "title": "Bentall prosedürü",
+        "shortDescription": "Aort kapağı, kök ve asendan aortun birlikte değiştirilmesi.",
+        "description": "Aort kapak hastalığı kök genişlemesiyle birlikte olduğunda standart prosedür. Kompozit kapaklı greft yerleştirilir."
+      },
+      "david": {
+        "title": "David prosedürü",
+        "shortDescription": "Aort kapağını koruyan kök replasmanı.",
+        "description": "Kapak hâlâ sağlam olduğunda, sadece kök yapısının yenilenerek hastanın doğal kapağının korunduğu uzun ömürlü bir teknik."
+      }
+    }
+  },
+  "other-cardiac-surgery": {
+    "title": "Diğer Erişkin Kalp Cerrahisi",
+    "shortDescription": "Kalp tümörleri, perikard hastalıkları ve atriyal fibrilasyon cerrahisi.",
+    "description": "Standart bypass ve kapak prosedürlerinin dışında kalan, ancak hayatı önemli ölçüde etkileyen kalp hastalıklarına yönelik özel cerrahi çözümler.",
+    "procedures": {
+      "atrial-myxoma": {
+        "title": "Atriyal miksoma eksizyonu",
+        "shortDescription": "En sık görülen iyi huylu kalp tümörünün cerrahi olarak çıkarılması.",
+        "description": "Genellikle sol atriyumda yer alır, emboli ve tıkanıklığa yol açabilir. Cerrahi sonuçları mükemmeldir."
+      },
+      "pericardiectomy": {
+        "title": "Perikardiyektomi",
+        "shortDescription": "Konstrüktif perikardit gibi durumlarda kalp zarının çıkarılması.",
+        "description": "Kalp zarı kalınlaştığında kalp doluşu kısıtlanır; perikardiyektomi nefes darlığı ve ödemde belirgin rahatlama sağlar."
+      },
+      "maze": {
+        "title": "MAZE prosedürü",
+        "shortDescription": "Atriyal fibrilasyon için cerrahi ablasyon.",
+        "description": "Ritim bozukluğunun kaynağı olan elektriksel yolları cerrahi olarak engelleyerek sinüs ritmini geri kazandırır. Diğer kalp ameliyatlarıyla birlikte uygulanabilir."
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "slug": "coronary-artery-surgery",
+      "icon": "heart-pulse",
+      "procedures": [
+        { "slug": "midcab", "featured": true },
+        { "slug": "off-pump-bypass", "featured": false },
+        { "slug": "classic-cabg", "featured": false }
+      ]
+    },
+    {
+      "slug": "heart-valve-surgery",
+      "icon": "activity",
+      "procedures": [
+        { "slug": "tavi", "featured": true },
+        { "slug": "sutureless-aortic", "featured": false },
+        { "slug": "mitral-repair", "featured": false },
+        { "slug": "mitral-replacement", "featured": false },
+        { "slug": "tricuspid", "featured": false }
+      ]
+    },
+    {
+      "slug": "aortic-surgery",
+      "icon": "waves",
+      "procedures": [
+        { "slug": "ascending-aneurysm", "featured": false },
+        { "slug": "aortic-dissection", "featured": false },
+        { "slug": "bentall", "featured": false },
+        { "slug": "david", "featured": false }
+      ]
+    },
+    {
+      "slug": "other-cardiac-surgery",
+      "icon": "stethoscope",
+      "procedures": [
+        { "slug": "atrial-myxoma", "featured": false },
+        { "slug": "pericardiectomy", "featured": false },
+        { "slug": "maze", "featured": false }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,71 @@
-{}
+{
+  "popup": {
+    "title": "Dies ist eine Portfolio-Beispielseite",
+    "body": "Diese Website ist ein Frontend-Portfolio-Projekt von Emre Can Karataş. Op. Dr. Kaan Işık ist eine fiktive Persona — keine der hier gezeigten Informationen bezieht sich auf eine reale medizinische Fachperson.",
+    "dismiss": "Verstanden, weiter",
+    "closeLabel": "Schließen"
+  },
+  "hero": {
+    "title": "Moderne Herzchirurgie, in vertrauensvollen Händen.",
+    "subtitle": "In Deutschland ausgebildete minimalinvasive Verfahren. Über 2.000 Herzeingriffe aus einer Praxis in Konyaaltı, Antalya.",
+    "cta": "Kontakt aufnehmen",
+    "secondaryCta": "Klinikrundgang"
+  },
+  "doctor": {
+    "kicker": "Lernen Sie kennen",
+    "heading": "Op. Dr. Kaan Işık",
+    "role": "Herzchirurg",
+    "shortBio": "Nach einer Fellowship in minimalinvasiver Herzchirurgie in Deutschland im Jahr 2014 gründete Dr. Kaan Işık 2018 seine Praxis in Konyaaltı. Er betreut sowohl lokale als auch internationale Patientinnen und Patienten aus ganz Europa in drei Sprachen: Türkisch, Englisch und Deutsch.",
+    "expandLabel": "Vollständigen Lebenslauf lesen",
+    "collapseLabel": "Weniger anzeigen",
+    "education": {
+      "title": "Ausbildung",
+      "items": [
+        { "period": "2002–2008", "institution": "Koç Universität, Medizinische Fakultät", "detail": "Approbation" },
+        { "period": "2008–2014", "institution": "Istanbul Universität, Cerrahpaşa Fakultät für Medizin", "detail": "Facharztausbildung Herzchirurgie" },
+        { "period": "2014–2016", "institution": "Deutschland", "detail": "Fellowship Minimalinvasive Herzchirurgie" }
+      ]
+    },
+    "career": {
+      "title": "Werdegang",
+      "items": [
+        "2016–2018: Herzchirurg an privaten Krankenhäusern in der Türkei nach der Rückkehr aus Deutschland.",
+        "2018–heute: Gründung der eigenen Praxis in Konyaaltı, Antalya. Inzwischen im 8. Jahr in eigener Praxis.",
+        "Eingriffe werden weiterhin an kooperierenden Privatkliniken durchgeführt; die Praxis dient als Beratungs- und Nachsorgezentrum."
+      ]
+    },
+    "memberships": {
+      "title": "Mitgliedschaften",
+      "items": [
+        "TKDCD — Türkische Gesellschaft für Herz- und Gefäßchirurgie",
+        "EACTS — European Association for Cardio-Thoracic Surgery"
+      ]
+    },
+    "specialization": {
+      "title": "Schwerpunkte",
+      "body": "Erwachsenen-Herzchirurgie mit besonderem Fokus auf koronare Bypassoperationen (einschließlich minimalinvasiver MIDCAB), Herzklappenchirurgie (TAVI und nahtloser Aortenklappenersatz) sowie Aortenchirurgie (Aneurysmen, Dissektionen, Wurzelchirurgie)."
+    }
+  },
+  "stats": {
+    "heading": "Unsere Erfahrung in Zahlen",
+    "items": {
+      "surgeries": { "label": "Eingriffe am offenen Herzen" },
+      "experience": { "label": "Jahre in eigener Praxis", "suffix": " J." },
+      "satisfaction": { "label": "Patientenzufriedenheit" },
+      "languages": { "label": "Sprachen", "sublabel": "TR · EN · DE" }
+    }
+  },
+  "services": {
+    "heading": "Unsere Leistungsbereiche",
+    "lede": "Umfassende Erwachsenen-Herzchirurgie mit klarem Schwerpunkt auf modernen, minimalinvasiven Verfahren.",
+    "viewProcedures": "Verfahren"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "lede": "Die Fragen, die unsere Patienten am häufigsten stellen."
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "lede": "Melden Sie sich direkt für einen Beratungstermin oder zu Fragen rund um die internationale Patientenbetreuung."
+  }
+}

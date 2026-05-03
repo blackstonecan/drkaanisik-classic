@@ -1,1 +1,119 @@
-{}
+{
+  "ui": {
+    "title": "Blog",
+    "lede": "Clear, accurate answers to the questions our patients ask most.",
+    "popularCategoriesTitle": "Popular categories",
+    "filtersTitle": "Filter",
+    "filtersAllCategories": "All",
+    "filtersCategoryLabel": "Service area",
+    "searchPlaceholder": "Search title or content…",
+    "noResults": "No posts match your filters.",
+    "showingResults": "Showing {{count}} posts",
+    "readingTime": "{{minutes}} min read",
+    "publishedOn": "Published {{date}}",
+    "by": "By",
+    "relatedTitle": "Related posts",
+    "likesLabel": "likes",
+    "viewsLabel": "views",
+    "likeAria": "Like this post",
+    "unlikeAria": "Remove like"
+  },
+  "posts": {
+    "midcab": {
+      "title": "What is MIDCAB? A guide to minimally invasive coronary bypass",
+      "excerpt": "How a 5–8 cm incision below the left breast replaces the traditional sternotomy — and which patients are good candidates.",
+      "imageAlt": "Gloved hands of surgeons performing minimally invasive cardiac surgery",
+      "readingTime": 6
+    },
+    "off-pump-vs-on-pump": {
+      "title": "Off-pump vs. on-pump bypass: which approach, when?",
+      "excerpt": "We compare the trade-offs of the heart-lung machine versus operating on a beating heart.",
+      "imageAlt": "Cardiac surgical team working in a modern operating theatre",
+      "readingTime": 5
+    },
+    "bypass-recovery": {
+      "title": "Recovering from bypass: the first 12 weeks",
+      "excerpt": "What to do, what to avoid, and when to return to work and to social life after bypass surgery.",
+      "imageAlt": "Patient walking through a hospital corridor during bypass recovery",
+      "readingTime": 7
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Classic open bypass vs. minimally invasive: which fits which patient?",
+      "excerpt": "Evidence-based outcomes, anatomy, and patient profile — we walk through how the choice is actually made.",
+      "imageAlt": "Cardiac surgical team in a planning huddle",
+      "readingTime": 6
+    },
+    "tavi": {
+      "title": "What is TAVI? Aortic valve replacement without open surgery",
+      "excerpt": "A new-generation aortic valve, delivered through a groin artery — designed for older or higher-risk patients.",
+      "imageAlt": "Anatomical heart model with medical instruments",
+      "readingTime": 6
+    },
+    "sutureless-aortic": {
+      "title": "Sutureless aortic valves: a faster, suture-free biological valve",
+      "excerpt": "By eliminating suturing time, this approach shortens cross-clamp time and offers an alternative for higher-risk surgical candidates.",
+      "imageAlt": "Close-up of a prosthetic aortic valve",
+      "readingTime": 5
+    },
+    "mitral-repair-vs-replacement": {
+      "title": "Mitral valve: repair or replace?",
+      "excerpt": "The long-term advantages of preserving your own valve, and the situations where replacement becomes the right call.",
+      "imageAlt": "Medical illustration of heart valve anatomy",
+      "readingTime": 5
+    },
+    "valve-disease-signs": {
+      "title": "Heart valve disease: symptoms you shouldn’t ignore",
+      "excerpt": "Breathlessness, palpitations, ankle swelling — which symptoms suggest valve disease, and when should you see a specialist?",
+      "imageAlt": "Doctor listening to a patient’s heart with a stethoscope",
+      "readingTime": 4
+    },
+    "aortic-aneurysm-guide": {
+      "title": "Aortic aneurysm: from diagnosis to treatment",
+      "excerpt": "A silent condition that can become life-threatening. Screening, follow-up, and the surgical decision.",
+      "imageAlt": "Anatomical diagram of the aorta",
+      "readingTime": 7
+    },
+    "aortic-dissection-emergency": {
+      "title": "Aortic dissection: an emergency where minutes matter",
+      "excerpt": "What a Type A dissection is, why it requires surgery within hours, and how our 24/7 team is structured around it.",
+      "imageAlt": "Hospital emergency department entrance",
+      "readingTime": 5
+    },
+    "bentall-vs-david": {
+      "title": "Bentall vs. David: choosing between two root procedures",
+      "excerpt": "Should the aortic valve be preserved, or replaced together with the root? We make the decision based on anatomy and long-term goals.",
+      "imageAlt": "Anatomical model of the aortic root",
+      "readingTime": 6
+    },
+    "living-with-aneurysm": {
+      "title": "Living with an aneurysm: surveillance, lifestyle, control",
+      "excerpt": "Follow-up intervals, blood-pressure management, and daily-life recommendations for aneurysms that don’t yet need surgery.",
+      "imageAlt": "Person walking along a coastal path",
+      "readingTime": 5
+    },
+    "atrial-myxoma": {
+      "title": "Atrial myxoma: the most common benign cardiac tumour",
+      "excerpt": "Often diagnosed by accident. How it’s found, why it must be removed.",
+      "imageAlt": "Medical illustration of cardiac anatomy",
+      "readingTime": 4
+    },
+    "maze-procedure": {
+      "title": "The MAZE procedure: surgically ending atrial fibrillation",
+      "excerpt": "When fibrillation is long-standing or accompanies other cardiac surgery, surgical ablation can restore sinus rhythm.",
+      "imageAlt": "ECG strip showing atrial fibrillation",
+      "readingTime": 5
+    },
+    "pericardiectomy": {
+      "title": "Pericardiectomy: relieving the constrained heart",
+      "excerpt": "When constrictive pericarditis impairs cardiac filling, removing the pericardium delivers significant relief from breathlessness and oedema.",
+      "imageAlt": "Chest imaging of heart and lungs",
+      "readingTime": 5
+    },
+    "when-cardiac-surgery": {
+      "title": "When is cardiac surgery necessary? A patient’s roadmap",
+      "excerpt": "We clarify the line between conditions managed with medication and those where surgery shouldn’t be delayed.",
+      "imageAlt": "Cardiac surgeon talking with a patient",
+      "readingTime": 6
+    }
+  }
+}

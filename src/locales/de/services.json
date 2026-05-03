@@ -1,1 +1,105 @@
-{}
+{
+  "coronary-artery-surgery": {
+    "title": "Koronararterienchirurgie",
+    "shortDescription": "Bypass-Verfahren, die einen neuen Blutweg um verengte Herzkranzgefäße schaffen.",
+    "description": "Bei Verengungen oder Verschlüssen der Herzkranzgefäße stellt eine Bypass-Operation die Versorgung des Herzmuskels wieder her. Wann immer möglich, bevorzugen wir minimalinvasive Verfahren.",
+    "procedures": {
+      "midcab": {
+        "title": "MIDCAB",
+        "shortDescription": "Minimalinvasiver direkter Koronarbypass — über einen kleinen Schnitt unter der linken Brust.",
+        "description": "Ein 5–8 cm langer Schnitt an der linken Brustwand ermöglicht den Bypass, ohne das Brustbein zu durchtrennen. Schnellere Erholung, weniger Schmerzen, kleinere Narbe."
+      },
+      "off-pump-bypass": {
+        "title": "Off-Pump-Bypass (am schlagenden Herzen)",
+        "shortDescription": "Bypass ohne Herz-Lungen-Maschine, am schlagenden Herzen durchgeführt.",
+        "description": "Der Verzicht auf die Herz-Lungen-Maschine kann bei geeigneten Patientinnen und Patienten Nieren- und neurologische Komplikationen verringern."
+      },
+      "classic-cabg": {
+        "title": "Klassischer offener Bypass",
+        "shortDescription": "Klassischer Bypass über eine Sternotomie.",
+        "description": "Standardvorgehen bei Mehrgefäßerkrankungen und komplexer Anatomie — mit hoher Langzeit-Offenheitsrate der Bypässe."
+      }
+    }
+  },
+  "heart-valve-surgery": {
+    "title": "Herzklappenchirurgie",
+    "shortDescription": "Rekonstruktion oder Ersatz von Aorten-, Mitral- und Trikuspidalklappen.",
+    "description": "Verengungen oder Undichtigkeiten der Klappen belasten das Herz und führen zu Atemnot. Wir wählen die Lösung individuell — von minimalinvasiv bis transkatheter.",
+    "procedures": {
+      "tavi": {
+        "title": "TAVI",
+        "shortDescription": "Transkatheter-Aortenklappenimplantation — für Patientinnen mit hohem OP-Risiko.",
+        "description": "Vor allem für ältere oder hochrisikobehaftete Patienten. Eine neue Klappe wird über die Leistenarterie eingebracht, ohne den Brustkorb zu öffnen. Kurze Krankenhausaufenthalte."
+      },
+      "sutureless-aortic": {
+        "title": "Nahtloser Aortenklappenersatz",
+        "shortDescription": "Eine biologische Aortenklappe, die ohne Nähte verankert wird.",
+        "description": "Verkürzt Operations- und Klemmzeit — eine Alternative bei chirurgisch riskanten Patientinnen und Patienten."
+      },
+      "mitral-repair": {
+        "title": "Mitralklappenrekonstruktion",
+        "shortDescription": "Rekonstruktion, die wann immer möglich die eigene Klappe erhält.",
+        "description": "Wo geeignet, minimalinvasiv über eine rechte Mini-Thorakotomie. Langfristige Ergebnisse sind dem Klappenersatz überlegen."
+      },
+      "mitral-replacement": {
+        "title": "Mitralklappenersatz",
+        "shortDescription": "Wenn eine Rekonstruktion nicht möglich ist — Ersatz durch eine mechanische oder biologische Prothese.",
+        "description": "Die Klappenwahl richtet sich nach Alter und Eignung für eine lebenslange Antikoagulation."
+      },
+      "tricuspid": {
+        "title": "Trikuspidalklappenchirurgie",
+        "shortDescription": "Begleitend zur Linksherzchirurgie oder bei isolierter Trikuspidalerkrankung.",
+        "description": "Meist in Kombination mit Mitraleingriffen. Bei isolierter Insuffizienz stehen minimalinvasive Optionen zur Verfügung."
+      }
+    }
+  },
+  "aortic-surgery": {
+    "title": "Aortenchirurgie",
+    "shortDescription": "Chirurgische Behandlung von Aortenaneurysmen, Dissektionen und Wurzelerkrankungen.",
+    "description": "Die Aorta ist die Hauptschlagader — Erweiterungen oder Einrisse sind lebensbedrohlich. Wir decken das gesamte Spektrum der Notfall- und Elektivchirurgie ab, einschließlich klappen- und wurzelerhaltender Verfahren.",
+    "procedures": {
+      "ascending-aneurysm": {
+        "title": "Aneurysma der aufsteigenden Aorta",
+        "shortDescription": "Erweiterung des ersten Abschnitts der Brustaorta.",
+        "description": "Ab einem bestimmten Durchmesser steigt das Rupturrisiko stark an. Ersatz durch eine Prothese ist Standard; gegebenenfalls werden Klappe und Wurzel mitversorgt."
+      },
+      "aortic-dissection": {
+        "title": "Aortendissektion",
+        "shortDescription": "Notfall durch Einriss der Aortenwand.",
+        "description": "Typ-A-Dissektionen sind lebensbedrohlich und müssen innerhalb weniger Stunden operiert werden. 24/7-Notfallbereitschaft ist ein Kernanspruch unseres Teams."
+      },
+      "bentall": {
+        "title": "Bentall-Operation",
+        "shortDescription": "Kombinierter Ersatz von Aortenklappe, Wurzel und aufsteigender Aorta.",
+        "description": "Standardverfahren bei Klappenerkrankung mit gleichzeitiger Wurzelweitung. Es wird eine kombinierte Klappenprothese implantiert."
+      },
+      "david": {
+        "title": "David-Operation",
+        "shortDescription": "Klappenerhaltender Aortenwurzelersatz.",
+        "description": "Bei intakter Klappe wird nur die Wurzel ersetzt — ein langlebiges Verfahren, das die eigene Klappe schont."
+      }
+    }
+  },
+  "other-cardiac-surgery": {
+    "title": "Weitere Erwachsenen-Herzchirurgie",
+    "shortDescription": "Herztumoren, Perikarderkrankungen und Chirurgie bei Vorhofflimmern.",
+    "description": "Spezialisierte Lösungen jenseits von Standard-Bypass und Klappenchirurgie — Erkrankungen, die das Leben der Patientinnen und Patienten dennoch deutlich beeinflussen.",
+    "procedures": {
+      "atrial-myxoma": {
+        "title": "Vorhofmyxom-Exzision",
+        "shortDescription": "Entfernung des häufigsten gutartigen Herztumors.",
+        "description": "In der Regel im linken Vorhof gelegen, mit Risiko für Embolien oder Verlegung. Operative Ergebnisse sind ausgezeichnet."
+      },
+      "pericardiectomy": {
+        "title": "Perikardektomie",
+        "shortDescription": "Entfernung des Herzbeutels bei Erkrankungen wie konstriktiver Perikarditis.",
+        "description": "Bei verdicktem Perikard ist die Herzfüllung eingeschränkt; die Perikardektomie führt zu deutlicher Linderung von Atemnot und Ödemen."
+      },
+      "maze": {
+        "title": "MAZE-Operation",
+        "shortDescription": "Chirurgische Ablation bei Vorhofflimmern.",
+        "description": "Die elektrischen Pfade, die das Flimmern verursachen, werden chirurgisch unterbrochen — der Sinusrhythmus wird wiederhergestellt. Kombinierbar mit anderen Herzeingriffen."
+      }
+    }
+  }
+}

@@ -1,1 +1,28 @@
-{}
+{
+  "items": {
+    "what-is-midcab": {
+      "question": "MIDCAB tam olarak nedir, kimler için uygundur?",
+      "answer": "MIDCAB (Minimal İnvaziv Direkt Koroner Bypass), sternum kemiği açılmadan, sol göğüs duvarındaki 5–8 cm'lik bir kesi üzerinden yapılan koroner bypass tekniğidir. Genellikle sol ön inen (LAD) damarındaki tek damar tıkanıklığı olan veya çok damar tutulumu olup hibrit yaklaşıma uygun hastalarda tercih edilir. Klasik bypass'a göre iyileşme daha hızlı, ağrı daha az ve hastanede kalış süresi daha kısadır."
+    },
+    "tavi-eligibility": {
+      "question": "TAVI için kimler uygun aday?",
+      "answer": "TAVI öncelikle ileri yaş, yüksek cerrahi risk, eşlik eden ciddi akciğer veya böbrek hastalığı olan, açık kalp ameliyatına uygun olmayan aort darlığı hastalarına önerilir. Karar bir kalp ekibi konseyiyle (cerrah + kardiyolog + anestezist) birlikte alınır; her hasta tek tek değerlendirilir."
+    },
+    "international-patient-process": {
+      "question": "Yurt dışından geliyorum, süreç nasıl ilerler?",
+      "answer": "Önce kalp raporlarınızı ve görüntülemelerinizi e-posta veya WhatsApp ile bize iletmenizi rica ederiz. Aynı hafta içinde ücretsiz video konsültasyon ayarlıyoruz. Karar verildiyse havalimanı transferi, konaklama, EN/DE çevirmen ve hastane koordinasyonunu sizin için biz organize ediyoruz. Operasyon sonrası ilk 6 hafta telemedicine ile takip yapılır."
+    },
+    "hospitalization-duration": {
+      "question": "Ameliyat sonrası hastanede ne kadar kalırım?",
+      "answer": "Komplikasyonsuz bir bypass veya kapak ameliyatından sonra ortalama hastanede kalış süresi 5–7 gündür. MIDCAB ve TAVI gibi minimal invaziv prosedürlerde bu süre 3–4 güne kadar düşebilir. Taburculuk sonrası ilk kontrol 7-10 gün içinde yapılır."
+    },
+    "second-opinion": {
+      "question": "İkinci görüş için randevu alabilir miyim?",
+      "answer": "Tabii ki. Mevcut raporlarınızla beraber bir konsültasyon randevusu alabilir, mevcut tedavi planınızı uzman bir kalp cerrahıyla birlikte değerlendirebilirsiniz. İkinci görüşü kesinlikle yargılayıcı değil, bilgilendirici bir süreç olarak görüyoruz."
+    },
+    "languages-supported": {
+      "question": "Hangi dillerde hizmet veriyorsunuz?",
+      "answer": "Türkçe, İngilizce ve Almanca olmak üzere üç dilde tam zamanlı hizmet vermekteyiz. Op. Dr. Kaan Işık her üç dili de akıcı olarak konuşur; klinikteki tüm yazışma ve raporlar talebinize göre bu dillerden birinde hazırlanabilir."
+    }
+  }
+}

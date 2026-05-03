@@ -1,1 +1,119 @@
-{}
+{
+  "ui": {
+    "title": "Blog",
+    "lede": "Klare, fundierte Antworten auf die Fragen, die unsere Patienten am häufigsten stellen.",
+    "popularCategoriesTitle": "Beliebte Kategorien",
+    "filtersTitle": "Filtern",
+    "filtersAllCategories": "Alle",
+    "filtersCategoryLabel": "Leistungsbereich",
+    "searchPlaceholder": "Titel oder Inhalt suchen…",
+    "noResults": "Keine Beiträge entsprechen Ihren Filtern.",
+    "showingResults": "{{count}} Beiträge",
+    "readingTime": "{{minutes}} Min. Lesezeit",
+    "publishedOn": "Veröffentlicht am {{date}}",
+    "by": "Von",
+    "relatedTitle": "Verwandte Beiträge",
+    "likesLabel": "Likes",
+    "viewsLabel": "Aufrufe",
+    "likeAria": "Beitrag liken",
+    "unlikeAria": "Like zurücknehmen"
+  },
+  "posts": {
+    "midcab": {
+      "title": "Was ist MIDCAB? Ein Leitfaden zum minimalinvasiven Koronarbypass",
+      "excerpt": "Wie ein 5–8 cm langer Schnitt unter der linken Brust die klassische Sternotomie ersetzt — und welche Patientinnen und Patienten geeignet sind.",
+      "imageAlt": "Behandschuhte Hände von Chirurgen während eines minimalinvasiven Herzeingriffs",
+      "readingTime": 6
+    },
+    "off-pump-vs-on-pump": {
+      "title": "Off-Pump vs. On-Pump-Bypass: Welcher Ansatz wann?",
+      "excerpt": "Wir vergleichen die Vor- und Nachteile von Eingriffen mit und ohne Herz-Lungen-Maschine.",
+      "imageAlt": "Herzchirurgisches Team in einem modernen Operationssaal",
+      "readingTime": 5
+    },
+    "bypass-recovery": {
+      "title": "Erholung nach Bypass: die ersten 12 Wochen",
+      "excerpt": "Was zu tun ist, was zu vermeiden ist, und wann Sie zu Beruf und Sozialleben zurückkehren können.",
+      "imageAlt": "Patient geht während der Erholung nach einer Bypass-Operation durch einen Klinikflur",
+      "readingTime": 7
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Klassischer Bypass vs. minimalinvasiver Bypass: Wer profitiert wovon?",
+      "excerpt": "Evidenzbasierte Ergebnisse, Anatomie und Patientenprofil — wie die Entscheidung tatsächlich getroffen wird.",
+      "imageAlt": "Herzchirurgisches Team bei der Operationsplanung",
+      "readingTime": 6
+    },
+    "tavi": {
+      "title": "Was ist TAVI? Aortenklappenersatz ohne offene Operation",
+      "excerpt": "Eine Aortenklappe der neuen Generation, eingebracht über die Leistenarterie — vor allem für ältere oder hochrisikobehaftete Patienten.",
+      "imageAlt": "Anatomisches Herzmodell mit medizinischen Instrumenten",
+      "readingTime": 6
+    },
+    "sutureless-aortic": {
+      "title": "Nahtlose Aortenklappen: schnellere, nahtfreie biologische Klappen",
+      "excerpt": "Ohne Naht-Setzen verkürzt sich die Klemmzeit deutlich — eine Alternative für chirurgisch riskante Patientinnen und Patienten.",
+      "imageAlt": "Nahaufnahme einer prothetischen Aortenklappe",
+      "readingTime": 5
+    },
+    "mitral-repair-vs-replacement": {
+      "title": "Mitralklappe: rekonstruieren oder ersetzen?",
+      "excerpt": "Die langfristigen Vorteile, Ihre eigene Klappe zu erhalten — und wann ein Ersatz dennoch die richtige Wahl ist.",
+      "imageAlt": "Medizinische Illustration der Anatomie einer Herzklappe",
+      "readingTime": 5
+    },
+    "valve-disease-signs": {
+      "title": "Herzklappenerkrankungen: Anzeichen, die Sie nicht ignorieren sollten",
+      "excerpt": "Atemnot, Herzklopfen, geschwollene Knöchel — welche Symptome auf eine Klappenerkrankung hinweisen und wann der Gang zum Spezialisten lohnt.",
+      "imageAlt": "Arzt hört das Herz einer Patientin mit dem Stethoskop ab",
+      "readingTime": 4
+    },
+    "aortic-aneurysm-guide": {
+      "title": "Aortenaneurysma: von der Diagnose bis zur Behandlung",
+      "excerpt": "Ein stiller Befund, der lebensbedrohlich werden kann. Screening, Verlaufskontrolle und die Operationsentscheidung.",
+      "imageAlt": "Anatomisches Diagramm der Aorta",
+      "readingTime": 7
+    },
+    "aortic-dissection-emergency": {
+      "title": "Aortendissektion: ein Notfall, in dem Minuten zählen",
+      "excerpt": "Was eine Typ-A-Dissektion ist, warum sie innerhalb weniger Stunden operiert werden muss und wie unser 24/7-Team darauf eingestellt ist.",
+      "imageAlt": "Eingang einer Notaufnahme",
+      "readingTime": 5
+    },
+    "bentall-vs-david": {
+      "title": "Bentall vs. David: Entscheidung zwischen zwei Wurzelverfahren",
+      "excerpt": "Soll die Aortenklappe erhalten werden oder gemeinsam mit der Wurzel ersetzt werden? Wir treffen die Entscheidung anhand von Anatomie und Langzeitziel.",
+      "imageAlt": "Anatomisches Modell der Aortenwurzel",
+      "readingTime": 6
+    },
+    "living-with-aneurysm": {
+      "title": "Leben mit einem Aneurysma: Verlaufskontrolle, Lebensstil, Kontrolle",
+      "excerpt": "Kontrollintervalle, Blutdruckmanagement und Empfehlungen für den Alltag bei Aneurysmen, die noch keine Operation erfordern.",
+      "imageAlt": "Person beim Spaziergang an einem Küstenweg",
+      "readingTime": 5
+    },
+    "atrial-myxoma": {
+      "title": "Vorhofmyxom: der häufigste gutartige Herztumor",
+      "excerpt": "Häufig zufällig entdeckt. Wie er gefunden wird, warum er entfernt werden muss.",
+      "imageAlt": "Medizinische Illustration der Herzanatomie",
+      "readingTime": 4
+    },
+    "maze-procedure": {
+      "title": "Die MAZE-Operation: Vorhofflimmern chirurgisch beenden",
+      "excerpt": "Wenn Vorhofflimmern lange besteht oder andere Eingriffe begleitet, kann die chirurgische Ablation den Sinusrhythmus wiederherstellen.",
+      "imageAlt": "EKG-Streifen mit Vorhofflimmern",
+      "readingTime": 5
+    },
+    "pericardiectomy": {
+      "title": "Perikardektomie: das eingeengte Herz wieder entlasten",
+      "excerpt": "Wenn eine konstriktive Perikarditis die Herzfüllung behindert, schafft die Entfernung des Perikards deutliche Linderung.",
+      "imageAlt": "Bildgebung von Herz und Lunge",
+      "readingTime": 5
+    },
+    "when-cardiac-surgery": {
+      "title": "Wann ist eine Herzoperation nötig? Ein Wegweiser für Patientinnen und Patienten",
+      "excerpt": "Wir grenzen ab, welche Erkrankungen sich medikamentös führen lassen und bei welchen die Operation nicht aufgeschoben werden sollte.",
+      "imageAlt": "Herzchirurg im Gespräch mit einer Patientin",
+      "readingTime": 6
+    }
+  }
+}

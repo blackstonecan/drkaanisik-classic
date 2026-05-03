@@ -1,1 +1,35 @@
-{}
+{
+  "addressLabel": "Adresse",
+  "phoneLabel": "Telefon",
+  "emailLabel": "E-Mail",
+  "openInMaps": "In Karten öffnen",
+  "form": {
+    "title": "Kontaktieren Sie uns",
+    "lede": "Schreiben Sie für einen Beratungstermin, eine Zweitmeinung oder Fragen zum internationalen Patientenprozess.",
+    "name": { "label": "Vollständiger Name", "placeholder": "Ihr vollständiger Name" },
+    "phone": { "label": "Telefon", "placeholder": "+49 1XX XXX XXXX" },
+    "email": { "label": "E-Mail", "placeholder": "sie@beispiel.de" },
+    "message": { "label": "Nachricht", "placeholder": "Wie können wir helfen?" },
+    "preferredContact": "Bevorzugter Kontakt",
+    "switchToPhone": "Telefon",
+    "switchToEmail": "E-Mail",
+    "submit": "Senden",
+    "submitting": "Wird gesendet…",
+    "successToast": "Ihre Nachricht ist eingegangen (diese Seite ist ein Portfolio-Beispiel — es erfolgt keine echte Übermittlung).",
+    "validation": {
+      "nameRequired": "Bitte geben Sie Ihren Namen an.",
+      "phoneRequired": "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "emailRequired": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "messageRequired": "Bitte schreiben Sie eine Nachricht."
+    }
+  },
+  "social": {
+    "instagramLabel": "Auf Instagram folgen",
+    "whatsappLabel": "Per WhatsApp schreiben",
+    "whatsappFloatLabel": "Über WhatsApp Kontakt aufnehmen"
+  },
+  "international": {
+    "title": "Internationale Patienten",
+    "body": "Für Patientinnen und Patienten aus dem Ausland koordinieren wir Video-Sprechstunde, Flughafentransfer, Unterkunft, EN/DE-Vor-Ort-Dolmetscher und postoperative Telemedizin — durchgängig."
+  }
+}

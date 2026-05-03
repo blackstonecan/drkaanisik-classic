@@ -1,1 +1,31 @@
-{}
+{
+  "ui": {
+    "title": "Klinikrundgang",
+    "lede": "Lernen Sie unsere Praxis kennen, bevor Sie kommen. Wechseln Sie über die Schaltflächen unten von Raum zu Raum.",
+    "currentLabel": "Sie befinden sich hier",
+    "loadingTransition": "Übergang wird geladen…",
+    "navTitle": "Weitere Bereiche"
+  },
+  "points": {
+    "entrance": {
+      "title": "Praxiseingang",
+      "description": "Ein warmer, ruhiger, moderner Empfang. Unser Team begrüßt Sie persönlich, bestätigt Ihren Termin und hilft beim Ausfüllen aller Formulare."
+    },
+    "waiting-area": {
+      "title": "Wartebereich",
+      "description": "Ein ruhiger, familienfreundlicher Bereich mit natürlichem Licht. Tee, Kaffee und kostenfreies WLAN sind verfügbar. Wartezeiten halten wir kurz."
+    },
+    "consultation-room": {
+      "title": "Sprechzimmer",
+      "description": "Ein privater Raum, in dem Op. Dr. Kaan Işık Ihre Bildgebung mit Ihnen gemeinsam bespricht und Ihre Behandlungsoptionen verständlich erklärt."
+    },
+    "examination-room": {
+      "title": "Untersuchungsraum",
+      "description": "Ein eigens für die körperliche Untersuchung eingerichteter Raum — mit besonderem Fokus auf Privatsphäre und Komfort."
+    },
+    "ekg-usg-room": {
+      "title": "EKG- / Ultraschallraum",
+      "description": "Voll ausgestatteter Raum für EKG, Echokardiographie und Gefäß-Doppler. Die meisten Befunde teilen wir noch im selben Termin mit Ihnen."
+    }
+  }
+}

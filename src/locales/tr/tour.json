@@ -1,1 +1,31 @@
-{}
+{
+  "ui": {
+    "title": "Klinik Turu",
+    "lede": "Bize gelmeden önce klinik atmosferimizi tanıyın. Aşağıdaki butonlarla odadan odaya geçebilirsiniz.",
+    "currentLabel": "Şu anda buradasınız",
+    "loadingTransition": "Geçiş yükleniyor…",
+    "navTitle": "Diğer alanlar"
+  },
+  "points": {
+    "entrance": {
+      "title": "Klinik Girişi",
+      "description": "Sıcak, sade ve modern bir karşılama alanı. Resepsiyondaki ekibimiz sizi adınızla karşılar; randevunuzu doğrular ve gerekli formları size yardımcı olarak doldurur."
+    },
+    "waiting-area": {
+      "title": "Bekleme Alanı",
+      "description": "Doğal ışık alan, sessiz ve aile dostu bir bekleme alanı. Çay, kahve ve ücretsiz Wi-Fi mevcuttur. Bekleme süreleri minimuma indirilmiştir."
+    },
+    "consultation-room": {
+      "title": "Konsültasyon Odası",
+      "description": "Op. Dr. Kaan Işık ile yüz yüze görüştüğünüz, görüntülemelerinizin birlikte değerlendirildiği özel oda. Size sunulan tedavi seçenekleri açıkça anlatılır."
+    },
+    "examination-room": {
+      "title": "Muayene Odası",
+      "description": "Fiziksel muayene için tasarlanmış, ergonomik bir oda. Hastanın gizliliği ve konforu önceliktir."
+    },
+    "ekg-usg-room": {
+      "title": "EKG / USG Odası",
+      "description": "EKG, ekokardiyografi ve damar Doppler incelemeleri için tam donanımlı tetkik odası. Çoğu sonuç aynı seans içinde sizinle paylaşılır."
+    }
+  }
+}

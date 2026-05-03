@@ -1,1 +1,119 @@
-{}
+{
+  "ui": {
+    "title": "Blog",
+    "lede": "Hastalarımızın merak ettiği konularda, sade ve doğru bilgi.",
+    "popularCategoriesTitle": "Popüler kategoriler",
+    "filtersTitle": "Filtrele",
+    "filtersAllCategories": "Tümü",
+    "filtersCategoryLabel": "Hizmet alanı",
+    "searchPlaceholder": "Başlık veya içerik ara…",
+    "noResults": "Filtrelerinize uygun yazı bulunamadı.",
+    "showingResults": "{{count}} yazı gösteriliyor",
+    "readingTime": "{{minutes}} dk okuma",
+    "publishedOn": "Yayınlandı: {{date}}",
+    "by": "Yazar",
+    "relatedTitle": "İlgili yazılar",
+    "likesLabel": "beğeni",
+    "viewsLabel": "görüntüleme",
+    "likeAria": "Beğen",
+    "unlikeAria": "Beğenmekten vazgeç"
+  },
+  "posts": {
+    "midcab": {
+      "title": "MIDCAB nedir? Minimal invaziv direkt koroner bypass rehberi",
+      "excerpt": "Sternum açılmadan, sol göğüs duvarındaki küçük bir kesiyle yapılan bypass tekniğinin nasıl çalıştığını ve kimlere uygun olduğunu anlatıyoruz.",
+      "imageAlt": "Cerrahların minimal invaziv kalp ameliyatı uygularken eldivenli elleri",
+      "readingTime": 6
+    },
+    "off-pump-vs-on-pump": {
+      "title": "Off-pump (atan kalpte) bypass mı, on-pump bypass mı?",
+      "excerpt": "Kalp-akciğer makinesi kullanılan ve kullanılmayan iki yaklaşımın avantaj ve sınırlarını karşılaştırıyoruz.",
+      "imageAlt": "Modern bir ameliyathanede çalışan kalp cerrahisi ekibi",
+      "readingTime": 5
+    },
+    "bypass-recovery": {
+      "title": "Bypass sonrası iyileşme: ilk 12 hafta",
+      "excerpt": "Hastaneden çıktıktan sonraki ilk üç ay; nelere dikkat etmeli, ne zaman işe ve sosyal yaşama dönülür, neye karşı temkinli olunur?",
+      "imageAlt": "Bypass sonrası iyileşme dönemini geçiren bir hasta hastane koridorunda yürüyor",
+      "readingTime": 7
+    },
+    "classic-vs-minimal-bypass": {
+      "title": "Klasik açık bypass mı, minimal invaziv yaklaşım mı?",
+      "excerpt": "Kanıta dayalı sonuçlar, anatomi ve hastanın genel durumu — hangi yaklaşımın hangi hastaya daha uygun olduğunu birlikte değerlendiriyoruz.",
+      "imageAlt": "Cerrahi planlama yapan kalp cerrahisi ekibi",
+      "readingTime": 6
+    },
+    "tavi": {
+      "title": "TAVI nedir? Açık ameliyatsız aort kapak değişimi",
+      "excerpt": "İleri yaş veya yüksek cerrahi riskli hastalarda kasıktaki damar yoluyla yerleştirilen yeni nesil aort kapağı.",
+      "imageAlt": "Anatomik kalp modeli ve tıbbi cihazlar",
+      "readingTime": 6
+    },
+    "sutureless-aortic": {
+      "title": "Sutureless aort kapak: dikişsiz, hızlı yerleşen biyolojik kapak",
+      "excerpt": "Dikiş süresini ortadan kaldırarak ameliyat süresini kısaltan ve yüksek riskli hastalarda alternatif sunan modern bir yaklaşım.",
+      "imageAlt": "Yapay aort kapağı yakın çekim",
+      "readingTime": 5
+    },
+    "mitral-repair-vs-replacement": {
+      "title": "Mitral kapak: tamir mi, değişim mi?",
+      "excerpt": "Hastanın kendi kapağını korumanın uzun vadeli avantajları ve hangi durumlarda değişimin kaçınılmaz olduğu.",
+      "imageAlt": "Kalp kapağı anatomisini gösteren tıbbi illüstrasyon",
+      "readingTime": 5
+    },
+    "valve-disease-signs": {
+      "title": "Kalp kapak hastalığında dikkat edilmesi gereken belirtiler",
+      "excerpt": "Nefes darlığı, çarpıntı, ayak şişmesi… Hangi belirtiler kapak hastalığını düşündürür ve ne zaman uzmana başvurmalı?",
+      "imageAlt": "Bir hastanın kalbini dinleyen doktor",
+      "readingTime": 4
+    },
+    "aortic-aneurysm-guide": {
+      "title": "Aort anevrizması: tanıdan tedaviye yol haritası",
+      "excerpt": "Sessiz ilerleyen ama hayatı tehdit edebilen bir tablo. Tarama, takip ve cerrahi karar süreçleri.",
+      "imageAlt": "Aort anatomisi ve damar yapısı",
+      "readingTime": 7
+    },
+    "aortic-dissection-emergency": {
+      "title": "Aort diseksiyonu: dakikaların önemli olduğu acil tablo",
+      "excerpt": "Tip A diseksiyon nedir, neden saatler içinde ameliyat gerektirir ve bizim 7/24 ekip yapımız nasıl kuruludur?",
+      "imageAlt": "Acil servis girişi",
+      "readingTime": 5
+    },
+    "bentall-vs-david": {
+      "title": "Bentall ve David: iki köklü prosedür arasındaki seçim",
+      "excerpt": "Aort kapağı korunmalı mı, kapakla birlikte mi değiştirilmeli? Anatomi ve uzun dönem hedeflerine göre kararı birlikte alıyoruz.",
+      "imageAlt": "Anatomik aort modeli",
+      "readingTime": 6
+    },
+    "living-with-aneurysm": {
+      "title": "Anevrizma ile yaşamak: takip, yaşam tarzı, kontrol",
+      "excerpt": "Henüz cerrahi gerekmeyen anevrizmalarda kontrol sıklığı, kan basıncı yönetimi ve günlük yaşam önerileri.",
+      "imageAlt": "Sahil yolunda yürüyüş yapan bir kişi",
+      "readingTime": 5
+    },
+    "atrial-myxoma": {
+      "title": "Atriyal miksoma: en sık görülen iyi huylu kalp tümörü",
+      "excerpt": "Tanı çoğu zaman tesadüfi konur. Nasıl bulunur, neden mutlaka çıkarılmalıdır?",
+      "imageAlt": "Kalp anatomisinin medikal illüstrasyonu",
+      "readingTime": 4
+    },
+    "maze-procedure": {
+      "title": "MAZE prosedürü: cerrahi olarak atriyal fibrilasyonu sonlandırmak",
+      "excerpt": "Uzun süredir devam eden ya da diğer kalp ameliyatlarına eşlik eden atriyal fibrilasyonda cerrahi ablasyon seçeneği.",
+      "imageAlt": "EKG çıktısı ve atriyal fibrilasyon dalga formu",
+      "readingTime": 5
+    },
+    "pericardiectomy": {
+      "title": "Perikardiyektomi: kısıtlanmış kalbin rahatlatılması",
+      "excerpt": "Konstrüktif perikardit tablosunda nefes darlığı ve ödemden köklü çözüm: kalp zarının cerrahi olarak çıkarılması.",
+      "imageAlt": "Akciğer ve kalp grafileri",
+      "readingTime": 5
+    },
+    "when-cardiac-surgery": {
+      "title": "Kalp cerrahisi ne zaman gerekli? Hasta için bir yol haritası",
+      "excerpt": "İlaçla yetinilebilen durumlar ile cerrahinin geciktirilmemesi gereken durumlar arasındaki sınırı netleştiriyoruz.",
+      "imageAlt": "Hastasıyla görüşen bir kalp cerrahı",
+      "readingTime": 6
+    }
+  }
+}

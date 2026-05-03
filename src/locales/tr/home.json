@@ -1,1 +1,71 @@
-{}
+{
+  "popup": {
+    "title": "Bu bir portfolyo örnek sitesidir",
+    "body": "Bu site, Emre Can Karataş tarafından geliştirilmiş bir frontend portfolyo projesidir. Op. Dr. Kaan Işık kurgusal bir karakterdir; bu sitede yer alan hiçbir bilgi gerçek bir tıp profesyoneline ait değildir.",
+    "dismiss": "Anladım, devam et",
+    "closeLabel": "Kapat"
+  },
+  "hero": {
+    "title": "Modern kalp cerrahisi, güvenli eller.",
+    "subtitle": "Almanya eğitimli minimal invaziv yaklaşımlar. Antalya Konyaaltı'nda 2000+ kalp ameliyatı deneyimi.",
+    "cta": "İletişime Geç",
+    "secondaryCta": "Klinik Turu"
+  },
+  "doctor": {
+    "kicker": "Tanışın",
+    "heading": "Op. Dr. Kaan Işık",
+    "role": "Kalp ve Damar Cerrahı",
+    "shortBio": "2014'te Almanya'da minimal invaziv kalp cerrahisi alanında ihtisas yapan Dr. Kaan Işık, 2018'den bu yana Antalya Konyaaltı'ndaki kendi kliniğinde hizmet vermektedir. Hem yerel hastalara hem de Avrupa'dan gelen uluslararası hastalara TR/EN/DE üç dilde hizmet sunmaktadır.",
+    "expandLabel": "Tam özgeçmişi gör",
+    "collapseLabel": "Daha az göster",
+    "education": {
+      "title": "Eğitim",
+      "items": [
+        { "period": "2002–2008", "institution": "Koç Üniversitesi Tıp Fakültesi", "detail": "Tıp Doktoru" },
+        { "period": "2008–2014", "institution": "İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi", "detail": "Erişkin Kalp Cerrahisi İhtisası" },
+        { "period": "2014–2016", "institution": "Almanya", "detail": "Minimal İnvaziv Kalp Cerrahisi Fellowship'i" }
+      ]
+    },
+    "career": {
+      "title": "Kariyer",
+      "items": [
+        "2016–2018: Türkiye'deki çeşitli özel hastanelerde kalp cerrahı olarak görev yaptı.",
+        "2018–günümüz: Konyaaltı, Antalya'da kendi kliniğini kurdu ve 8 yıldır kesintisiz hizmet veriyor.",
+        "Anlaşmalı özel hastanelerde ameliyatlarını sürdürüyor; klinik konsültasyon ve takip merkezi olarak işliyor."
+      ]
+    },
+    "memberships": {
+      "title": "Üyelikler",
+      "items": [
+        "TKDCD — Türk Kalp ve Damar Cerrahisi Derneği",
+        "EACTS — Avrupa Kardiyo-Torasik Cerrahi Derneği"
+      ]
+    },
+    "specialization": {
+      "title": "Uzmanlık",
+      "body": "Erişkin kalp cerrahisi alanında özellikle koroner bypass (MIDCAB dahil minimal invaziv teknikler), kalp kapak cerrahisi (TAVI ve sutureless aort kapak değişimi) ve aort cerrahisi (anevrizma, diseksiyon, kök prosedürleri) konularında uzmanlık."
+    }
+  },
+  "stats": {
+    "heading": "Sayılarla deneyimimiz",
+    "items": {
+      "surgeries": { "label": "Açık kalp ameliyatı" },
+      "experience": { "label": "Yıl klinik deneyim", "suffix": " yıl" },
+      "satisfaction": { "label": "Hasta memnuniyeti" },
+      "languages": { "label": "Dilde hizmet", "sublabel": "TR · EN · DE" }
+    }
+  },
+  "services": {
+    "heading": "Hizmet alanlarımız",
+    "lede": "Erişkin kalp cerrahisinin tüm temel başlıklarında, modern ve minimal invaziv yaklaşımlarla.",
+    "viewProcedures": "Prosedürler"
+  },
+  "faq": {
+    "heading": "Sıkça sorulan sorular",
+    "lede": "Hastalarımızın bize en sık yönelttiği sorulardan derledik."
+  },
+  "contact": {
+    "heading": "İletişim",
+    "lede": "Konsültasyon randevusu veya uluslararası hasta süreci hakkında bilgi almak için doğrudan ulaşın."
+  }
+}

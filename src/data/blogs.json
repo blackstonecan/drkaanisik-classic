@@ -1,0 +1,212 @@
+{
+  "posts": [
+    {
+      "slug": "midcab",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["coronary-artery-surgery"],
+      "viewCount": 4287,
+      "likeCount": 312,
+      "publishedAt": "2025-09-12",
+      "slugByLocale": {
+        "tr": "midcab-nedir",
+        "en": "what-is-midcab",
+        "de": "was-ist-midcab"
+      }
+    },
+    {
+      "slug": "off-pump-vs-on-pump",
+      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["coronary-artery-surgery"],
+      "viewCount": 2104,
+      "likeCount": 148,
+      "publishedAt": "2025-07-04",
+      "slugByLocale": {
+        "tr": "off-pump-vs-on-pump-bypass",
+        "en": "off-pump-vs-on-pump-bypass",
+        "de": "off-pump-vs-on-pump-bypass"
+      }
+    },
+    {
+      "slug": "bypass-recovery",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["coronary-artery-surgery"],
+      "viewCount": 1872,
+      "likeCount": 122,
+      "publishedAt": "2025-05-22",
+      "slugByLocale": {
+        "tr": "bypass-sonrasi-iyilesme",
+        "en": "recovering-from-bypass",
+        "de": "erholung-nach-bypass"
+      }
+    },
+    {
+      "slug": "classic-vs-minimal-bypass",
+      "image": "https://images.unsplash.com/photo-1583912267550-aae0c7caea8f?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["coronary-artery-surgery"],
+      "viewCount": 1465,
+      "likeCount": 96,
+      "publishedAt": "2025-03-18",
+      "slugByLocale": {
+        "tr": "klasik-vs-minimal-invaziv-bypass",
+        "en": "classic-vs-minimally-invasive-bypass",
+        "de": "klassisch-vs-minimalinvasiver-bypass"
+      }
+    },
+    {
+      "slug": "tavi",
+      "image": "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["heart-valve-surgery"],
+      "viewCount": 5240,
+      "likeCount": 401,
+      "publishedAt": "2025-10-05",
+      "slugByLocale": {
+        "tr": "tavi-nedir",
+        "en": "what-is-tavi",
+        "de": "was-ist-tavi"
+      }
+    },
+    {
+      "slug": "sutureless-aortic",
+      "image": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["heart-valve-surgery"],
+      "viewCount": 1318,
+      "likeCount": 87,
+      "publishedAt": "2025-08-14",
+      "slugByLocale": {
+        "tr": "sutureless-aort-kapak",
+        "en": "sutureless-aortic-valve",
+        "de": "nahtloser-aortenklappenersatz"
+      }
+    },
+    {
+      "slug": "mitral-repair-vs-replacement",
+      "image": "https://images.unsplash.com/photo-1584467735815-f778f274e296?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["heart-valve-surgery"],
+      "viewCount": 1602,
+      "likeCount": 110,
+      "publishedAt": "2025-06-02",
+      "slugByLocale": {
+        "tr": "mitral-tamir-vs-degisim",
+        "en": "mitral-repair-vs-replacement",
+        "de": "mitralklappe-reparatur-vs-ersatz"
+      }
+    },
+    {
+      "slug": "valve-disease-signs",
+      "image": "https://images.unsplash.com/photo-1576091160790-8c14b7d97ce1?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["heart-valve-surgery"],
+      "viewCount": 2987,
+      "likeCount": 207,
+      "publishedAt": "2025-04-10",
+      "slugByLocale": {
+        "tr": "kalp-kapak-hastaligi-belirtileri",
+        "en": "heart-valve-disease-signs",
+        "de": "anzeichen-herzklappenerkrankung"
+      }
+    },
+    {
+      "slug": "aortic-aneurysm-guide",
+      "image": "https://images.unsplash.com/photo-1620828020562-f9bf4adb37ec?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["aortic-surgery"],
+      "viewCount": 2156,
+      "likeCount": 144,
+      "publishedAt": "2025-09-01",
+      "slugByLocale": {
+        "tr": "aort-anevrizmasi-rehberi",
+        "en": "aortic-aneurysm-guide",
+        "de": "aortenaneurysma-leitfaden"
+      }
+    },
+    {
+      "slug": "aortic-dissection-emergency",
+      "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["aortic-surgery"],
+      "viewCount": 3402,
+      "likeCount": 268,
+      "publishedAt": "2025-07-22",
+      "slugByLocale": {
+        "tr": "aort-diseksiyonu-acil-durum",
+        "en": "aortic-dissection-emergency",
+        "de": "aortendissektion-notfall"
+      }
+    },
+    {
+      "slug": "bentall-vs-david",
+      "image": "https://images.unsplash.com/photo-1612277795417-43c5b5a18a4d?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["aortic-surgery"],
+      "viewCount": 942,
+      "likeCount": 64,
+      "publishedAt": "2025-05-08",
+      "slugByLocale": {
+        "tr": "bentall-vs-david",
+        "en": "bentall-vs-david",
+        "de": "bentall-vs-david"
+      }
+    },
+    {
+      "slug": "living-with-aneurysm",
+      "image": "https://images.unsplash.com/photo-1579684288538-c76a2fbedd07?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["aortic-surgery"],
+      "viewCount": 1264,
+      "likeCount": 91,
+      "publishedAt": "2025-02-19",
+      "slugByLocale": {
+        "tr": "anevrizma-ile-yasam",
+        "en": "living-with-aneurysm",
+        "de": "leben-mit-aneurysma"
+      }
+    },
+    {
+      "slug": "atrial-myxoma",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["other-cardiac-surgery"],
+      "viewCount": 612,
+      "likeCount": 48,
+      "publishedAt": "2025-08-29",
+      "slugByLocale": {
+        "tr": "atriyal-miksoma",
+        "en": "atrial-myxoma",
+        "de": "vorhofmyxom"
+      }
+    },
+    {
+      "slug": "maze-procedure",
+      "image": "https://images.unsplash.com/photo-1583912086296-c4e2f4e5d0f4?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["other-cardiac-surgery"],
+      "viewCount": 1089,
+      "likeCount": 73,
+      "publishedAt": "2025-06-25",
+      "slugByLocale": {
+        "tr": "maze-prosedurü",
+        "en": "maze-procedure",
+        "de": "maze-verfahren"
+      }
+    },
+    {
+      "slug": "pericardiectomy",
+      "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["other-cardiac-surgery"],
+      "viewCount": 528,
+      "likeCount": 39,
+      "publishedAt": "2025-04-30",
+      "slugByLocale": {
+        "tr": "perikardiyektomi",
+        "en": "pericardiectomy",
+        "de": "perikardektomie"
+      }
+    },
+    {
+      "slug": "when-cardiac-surgery",
+      "image": "https://images.unsplash.com/photo-1587852135018-6ad3df7d2c66?auto=format&fit=crop&w=1200&q=80",
+      "categories": ["other-cardiac-surgery"],
+      "viewCount": 2241,
+      "likeCount": 165,
+      "publishedAt": "2025-01-28",
+      "slugByLocale": {
+        "tr": "kalp-cerrahisi-ne-zaman-gerekli",
+        "en": "when-is-cardiac-surgery-needed",
+        "de": "wann-ist-herzchirurgie-notwendig"
+      }
+    }
+  ]
+}

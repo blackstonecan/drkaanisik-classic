@@ -1,1 +1,105 @@
-{}
+{
+  "coronary-artery-surgery": {
+    "title": "Coronary Artery Surgery",
+    "shortDescription": "Bypass procedures that build a new path around blocked coronary vessels.",
+    "description": "When coronary arteries narrow or block, bypass surgery restores circulation to the heart muscle. Wherever possible, our approach favours minimally invasive techniques.",
+    "procedures": {
+      "midcab": {
+        "title": "MIDCAB",
+        "shortDescription": "Minimally invasive direct coronary bypass — through a small incision below the left breast.",
+        "description": "A 5–8 cm incision in the left chest wall allows bypass without dividing the breastbone. Faster recovery, less pain, and a smaller scar."
+      },
+      "off-pump-bypass": {
+        "title": "Off-pump bypass (beating-heart)",
+        "shortDescription": "Coronary bypass performed without the heart-lung machine, on a beating heart.",
+        "description": "Avoiding the cardiopulmonary bypass pump can reduce kidney and neurological complications in selected patients."
+      },
+      "classic-cabg": {
+        "title": "Classic open bypass",
+        "shortDescription": "Traditional bypass through a sternotomy.",
+        "description": "The standard, evidence-based approach for multi-vessel disease and complex anatomy. Excellent long-term graft patency."
+      }
+    }
+  },
+  "heart-valve-surgery": {
+    "title": "Heart Valve Surgery",
+    "shortDescription": "Repair or replacement options for aortic, mitral, and tricuspid valve disease.",
+    "description": "Valve narrowing or leakage strains the heart and causes breathlessness. Solutions are tailored by age, valve type, and risk profile — including minimally invasive and transcatheter options.",
+    "procedures": {
+      "tavi": {
+        "title": "TAVI",
+        "shortDescription": "Transcatheter aortic valve implantation — for patients at high surgical risk.",
+        "description": "Typically for older or higher-risk patients. A new valve is delivered via the femoral artery, without opening the chest. Hospital stays are short."
+      },
+      "sutureless-aortic": {
+        "title": "Sutureless aortic valve replacement",
+        "shortDescription": "A biological aortic valve that anchors without sutures.",
+        "description": "Shortens operative time and reduces aortic cross-clamp time — an alternative for higher-risk surgical candidates."
+      },
+      "mitral-repair": {
+        "title": "Mitral valve repair",
+        "shortDescription": "Repair that preserves the patient’s own valve whenever feasible.",
+        "description": "Where appropriate, performed minimally invasively via right mini-thoracotomy. Long-term outcomes are superior to replacement."
+      },
+      "mitral-replacement": {
+        "title": "Mitral valve replacement",
+        "shortDescription": "When repair is not possible, replacement with a mechanical or biological prosthesis.",
+        "description": "The valve type is selected based on the patient’s age and suitability for long-term anticoagulation."
+      },
+      "tricuspid": {
+        "title": "Tricuspid valve surgery",
+        "shortDescription": "Performed alongside left-heart surgery or for isolated tricuspid disease.",
+        "description": "Most often combined with mitral surgery. Minimally invasive options exist for isolated tricuspid regurgitation."
+      }
+    }
+  },
+  "aortic-surgery": {
+    "title": "Aortic Surgery",
+    "shortDescription": "Surgical treatment for aortic aneurysms, dissections, and root disease.",
+    "description": "The aorta is the body’s main artery — dilation or tearing is life-threatening. We cover the full spectrum of emergency and elective aortic surgery, including valve- and root-preserving procedures.",
+    "procedures": {
+      "ascending-aneurysm": {
+        "title": "Ascending aortic aneurysm",
+        "shortDescription": "Dilation of the first segment of the thoracic aorta.",
+        "description": "Above a certain diameter, the risk of rupture rises sharply. Replacement with a prosthetic graft is standard; the valve and root may be addressed together when needed."
+      },
+      "aortic-dissection": {
+        "title": "Aortic dissection",
+        "shortDescription": "An emergency caused by a tear in the aortic wall.",
+        "description": "Type A dissection is life-threatening and demands repair within hours. 24/7 emergency capability is a core priority of our team."
+      },
+      "bentall": {
+        "title": "Bentall procedure",
+        "shortDescription": "Combined replacement of the aortic valve, root, and ascending aorta.",
+        "description": "The standard procedure when valve disease accompanies root dilation. A composite valved graft is implanted."
+      },
+      "david": {
+        "title": "David procedure",
+        "shortDescription": "Valve-sparing aortic root replacement.",
+        "description": "When the valve itself is intact, only the root is replaced — preserving the patient’s native valve for a long-lasting result."
+      }
+    }
+  },
+  "other-cardiac-surgery": {
+    "title": "Other Adult Cardiac Surgery",
+    "shortDescription": "Cardiac tumours, pericardial disease, and surgery for atrial fibrillation.",
+    "description": "Specialist surgical solutions for cardiac conditions outside the standard bypass and valve domains, but no less impactful on a patient’s life.",
+    "procedures": {
+      "atrial-myxoma": {
+        "title": "Atrial myxoma excision",
+        "shortDescription": "Removal of the most common benign cardiac tumour.",
+        "description": "Usually located in the left atrium and capable of causing embolism or obstruction. Surgical outcomes are excellent."
+      },
+      "pericardiectomy": {
+        "title": "Pericardiectomy",
+        "shortDescription": "Removal of the pericardium for conditions such as constrictive pericarditis.",
+        "description": "When the pericardium thickens, cardiac filling is restricted; pericardiectomy markedly relieves breathlessness and oedema."
+      },
+      "maze": {
+        "title": "MAZE procedure",
+        "shortDescription": "Surgical ablation for atrial fibrillation.",
+        "description": "Surgically interrupts the electrical pathways that cause fibrillation, restoring sinus rhythm. May be combined with other cardiac surgery."
+      }
+    }
+  }
+}

@@ -1,1 +1,35 @@
-{}
+{
+  "addressLabel": "Adres",
+  "phoneLabel": "Telefon",
+  "emailLabel": "E-posta",
+  "openInMaps": "Haritada Aç",
+  "form": {
+    "title": "Bize ulaşın",
+    "lede": "Konsültasyon randevusu, ikinci görüş veya uluslararası hasta süreci için doğrudan yazın.",
+    "name": { "label": "Ad Soyad", "placeholder": "Adınız ve soyadınız" },
+    "phone": { "label": "Telefon", "placeholder": "+90 5XX XXX XX XX" },
+    "email": { "label": "E-posta", "placeholder": "ornek@e-posta.com" },
+    "message": { "label": "Mesaj", "placeholder": "Bize iletmek istedikleriniz…" },
+    "preferredContact": "Tercih ettiğiniz iletişim",
+    "switchToPhone": "Telefon",
+    "switchToEmail": "E-posta",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor…",
+    "successToast": "Mesajınız iletildi (bu site bir portfolyo örneğidir, gerçek gönderim yapılmaz).",
+    "validation": {
+      "nameRequired": "Lütfen adınızı girin.",
+      "phoneRequired": "Geçerli bir telefon numarası girin.",
+      "emailRequired": "Geçerli bir e-posta adresi girin.",
+      "messageRequired": "Mesaj alanı boş bırakılamaz."
+    }
+  },
+  "social": {
+    "instagramLabel": "Instagram'da takip et",
+    "whatsappLabel": "WhatsApp'tan yaz",
+    "whatsappFloatLabel": "WhatsApp ile iletişime geç"
+  },
+  "international": {
+    "title": "Sağlık Turizmi",
+    "body": "Yurt dışından gelen hastalar için video konsültasyon, havalimanı transferi, konaklama koordinasyonu, EN/DE çevirmen ve telemedicine takip hizmetlerini bir arada sunuyoruz."
+  }
+}
