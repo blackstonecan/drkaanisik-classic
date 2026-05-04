@@ -1,41 +1,26 @@
 {
+  "corridorImage": "/images/tour/corridor.png",
   "points": [
     {
       "slug": "entrance",
-      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1600&q=80",
-      "icon": "door-open"
+      "image": "/images/tour/entrance.png",
+      "icon": "door-open",
+      "exitVideo": "/videos/tour/entrance_to_corridor.mp4",
+      "enterVideo": "/videos/tour/corridor_to_entrance.mp4"
     },
     {
       "slug": "waiting-area",
-      "image": "https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1600&q=80",
-      "icon": "armchair"
-    },
-    {
-      "slug": "consultation-room",
-      "image": "https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0?auto=format&fit=crop&w=1600&q=80",
-      "icon": "clipboard-list"
+      "image": "/images/tour/waiting.png",
+      "icon": "armchair",
+      "exitVideo": "/videos/tour/waiting_to_corridor.mp4",
+      "enterVideo": "/videos/tour/corridor_to_waiting.mp4"
     },
     {
       "slug": "examination-room",
-      "image": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=1600&q=80",
-      "icon": "stethoscope"
-    },
-    {
-      "slug": "ekg-usg-room",
-      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=1600&q=80",
-      "icon": "heart-pulse"
-    }
-  ],
-  "transitions": [
-    {
-      "from": "entrance",
-      "to": "waiting-area",
-      "video": "https://cdn.coverr.co/videos/coverr-walking-through-a-modern-hospital-corridor-3289/1080p.mp4"
-    },
-    {
-      "from": "waiting-area",
-      "to": "consultation-room",
-      "video": "https://cdn.coverr.co/videos/coverr-walking-through-a-modern-hospital-corridor-3289/1080p.mp4"
+      "image": "/images/tour/examination.png",
+      "icon": "stethoscope",
+      "exitVideo": "/videos/tour/examination_to_corridor.mp4",
+      "enterVideo": "/videos/tour/corridor_to_examination.mp4"
     }
   ]
 }

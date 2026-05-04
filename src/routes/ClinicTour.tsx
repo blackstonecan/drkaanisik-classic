@@ -11,7 +11,7 @@ export default function ClinicTour() {
   })
 
   return (
-    <section className="container-page py-12 md:py-20">
+    <section className="container-page pb-12 pt-24 md:pb-20 md:pt-28">
       <div className="max-w-2xl">
         <h1 className="font-display text-4xl font-semibold text-trust-700 md:text-5xl">
           {t('ui.title')}

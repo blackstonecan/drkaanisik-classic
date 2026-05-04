@@ -41,6 +41,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -77,4 +78,14 @@ h1, h2, h3, h4 {
 
 @utility focus-ring {
   @apply outline-none ring-2 ring-trust-500 ring-offset-2 ring-offset-paper;
+}
+
+@keyframes tourFadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes tourFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

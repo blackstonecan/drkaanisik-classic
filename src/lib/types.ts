@@ -73,18 +73,13 @@ export type TourPoint = {
   slug: string
   image: string
   icon: LucideIconKey
-}
-
-export type TourTransition = {
-  from: string
-  to: string
-  video: string
-  videoMobile?: string
+  exitVideo?: string
+  enterVideo?: string
 }
 
 export type TourData = {
+  corridorImage: string
   points: TourPoint[]
-  transitions: TourTransition[]
 }
 
 export type FAQItem = {

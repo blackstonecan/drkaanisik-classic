@@ -23,12 +23,10 @@ export function Switch({ options, value, onChange, ariaLabel, className }: Switc
     >
       <motion.span
         aria-hidden
-        className="absolute top-1 bottom-1 rounded-full bg-white shadow-sm ring-1 ring-trust-200"
+        className="absolute top-1 bottom-1 left-1 rounded-full bg-white shadow-sm ring-1 ring-trust-200"
+        style={{ width: 'calc(50% - 0.25rem)' }}
         initial={false}
-        animate={{
-          left: activeIndex === 0 ? '0.25rem' : '50%',
-          right: activeIndex === 0 ? '50%' : '0.25rem',
-        }}
+        animate={{ x: activeIndex === 0 ? '0%' : '100%' }}
         transition={{ type: 'spring', stiffness: 500, damping: 40 }}
       />
       {options.map((option) => {
@@ -41,7 +39,7 @@ export function Switch({ options, value, onChange, ariaLabel, className }: Switc
             aria-checked={isActive}
             onClick={() => onChange(option.value)}
             className={cn(
-              'relative z-10 flex-1 rounded-full px-5 py-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-trust-500',
+              'relative z-10 flex-1 whitespace-nowrap rounded-full px-5 py-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-trust-500',
               isActive ? 'text-trust-700' : 'text-trust-700/60 hover:text-trust-700',
             )}
           >

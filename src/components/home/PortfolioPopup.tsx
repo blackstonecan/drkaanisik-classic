@@ -93,7 +93,7 @@ export function PortfolioPopup({ open, onClose }: PortfolioPopupProps) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.96 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="relative z-10 w-full max-w-lg rounded-3xl bg-paper p-7 shadow-2xl ring-1 ring-trust-100 md:p-9"
+            className="relative z-10 w-full max-w-lg rounded-3xl bg-paper p-6 shadow-2xl ring-1 ring-trust-100 sm:p-7 md:p-9"
           >
             <button
               type="button"

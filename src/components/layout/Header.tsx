@@ -10,25 +10,28 @@ import { cn } from '@/lib/utils'
 
 type NavLink = {
   key: 'home' | 'clinicTour' | 'services' | 'blog' | 'contact'
-  to: string
+  to: string | { pathname: string; hash: string }
   type: 'route' | 'anchor'
+  hash?: string
 }
 
-function buildLinks(locale: ReturnType<typeof useLocale>, isHomePage: boolean): NavLink[] {
+function buildLinks(locale: ReturnType<typeof useLocale>): NavLink[] {
   const homePath = localePath(locale, '/')
   return [
     { key: 'home', to: homePath, type: 'route' },
     { key: 'clinicTour', to: localePath(locale, '/clinic-tour'), type: 'route' },
     {
       key: 'services',
-      to: isHomePage ? '#services' : `${homePath === '/' ? '' : homePath}/#services`,
+      to: { pathname: homePath, hash: '#services' },
       type: 'anchor',
+      hash: 'services',
     },
     { key: 'blog', to: localePath(locale, '/blog'), type: 'route' },
     {
       key: 'contact',
-      to: isHomePage ? '#contact' : `${homePath === '/' ? '' : homePath}/#contact`,
+      to: { pathname: homePath, hash: '#contact' },
       type: 'anchor',
+      hash: 'contact',
     },
   ]
 }
@@ -55,7 +58,7 @@ export function Header() {
     }
   }, [drawerOpen])
 
-  const links = buildLinks(locale, isHomePage)
+  const links = buildLinks(locale)
 
   const headerClasses = cn(
     'fixed inset-x-0 top-0 z-50 transition-colors duration-300',
@@ -86,7 +89,7 @@ export function Header() {
         <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
           {links.map((link) => {
             const label = t(`nav.${link.key}`)
-            return link.type === 'route' ? (
+            return (
               <Link
                 key={link.key}
                 to={link.to}
@@ -97,17 +100,6 @@ export function Header() {
               >
                 {label}
               </Link>
-            ) : (
-              <a
-                key={link.key}
-                href={link.to}
-                className={cn(
-                  'text-sm font-medium transition-colors hover:opacity-70',
-                  textClasses,
-                )}
-              >
-                {label}
-              </a>
             )
           })}
         </nav>
@@ -123,7 +115,7 @@ export function Header() {
           aria-controls="mobile-drawer"
           aria-expanded={drawerOpen}
           className={cn(
-            'inline-flex items-center justify-center rounded-full p-2 transition-colors md:hidden',
+            'inline-flex h-11 w-11 items-center justify-center rounded-full p-2.5 transition-colors md:h-auto md:w-auto md:p-2 md:hidden',
             isSolid ? 'text-trust-700 hover:bg-trust-50' : 'text-white hover:bg-white/10',
           )}
         >
@@ -164,7 +156,7 @@ export function Header() {
                 const label = t(`nav.${link.key}`)
                 const className =
                   'block rounded-2xl px-4 py-3 text-lg font-medium text-trust-700 hover:bg-trust-50'
-                return link.type === 'route' ? (
+                return (
                   <Link
                     key={link.key}
                     to={link.to}
@@ -173,15 +165,6 @@ export function Header() {
                   >
                     {label}
                   </Link>
-                ) : (
-                  <a
-                    key={link.key}
-                    href={link.to}
-                    onClick={closeDrawer}
-                    className={className}
-                  >
-                    {label}
-                  </a>
                 )
               })}
             </nav>

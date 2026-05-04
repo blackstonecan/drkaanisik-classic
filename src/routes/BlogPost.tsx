@@ -56,7 +56,7 @@ export default function BlogPost() {
           aria-hidden
           className="absolute inset-0 -z-10 bg-gradient-to-b from-trust-950/70 via-trust-900/70 to-trust-900"
         />
-        <div className="container-prose py-16 text-paper md:py-24">
+        <div className="container-prose py-12 text-paper sm:py-16 md:py-24">
           <Link
             to={blogIndex}
             className="inline-flex items-center gap-2 text-sm text-paper/80 transition-colors hover:text-paper"

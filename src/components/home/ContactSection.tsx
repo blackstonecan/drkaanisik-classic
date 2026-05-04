@@ -80,7 +80,7 @@ export function ContactSection() {
           <form
             onSubmit={handleSubmit}
             noValidate
-            className="rounded-3xl bg-white p-6 ring-1 ring-trust-100 md:p-8"
+            className="flex h-full flex-col rounded-3xl bg-white p-6 ring-1 ring-trust-100 md:p-8"
           >
             <h3 className="font-display text-xl font-semibold text-trust-700">
               {t('form.title')}
@@ -100,7 +100,7 @@ export function ContactSection() {
               />
             </div>
 
-            <div className="mt-5 grid gap-4">
+            <div className="mt-5 flex flex-1 flex-col gap-4">
               <Field
                 label={t('form.name.label')}
                 placeholder={t('form.name.placeholder')}
@@ -207,7 +207,7 @@ export function ContactSection() {
                 title={`${doctor.address.city}`}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="h-72 w-full border-0"
+                className="h-56 w-full border-0 sm:h-64 md:h-72 lg:h-96"
               />
               <div className="border-t border-trust-100 px-5 py-3 text-right text-xs">
                 <a
@@ -270,7 +270,7 @@ type FieldTextareaProps = Omit<FieldProps, 'type' | 'required'>
 function FieldTextarea({ label, placeholder, value, onChange }: FieldTextareaProps) {
   const id = useId()
   return (
-    <div>
+    <div className="flex flex-1 flex-col">
       <label htmlFor={id} className="block text-sm font-medium text-trust-700">
         {label}
       </label>
@@ -280,7 +280,7 @@ function FieldTextarea({ label, placeholder, value, onChange }: FieldTextareaPro
         value={value}
         onChange={(e) => onChange(e.target.value)}
         rows={4}
-        className="mt-1.5 w-full rounded-xl border border-trust-200 bg-paper px-4 py-2.5 text-sm text-trust-900 placeholder:text-trust-700/40 focus-visible:border-trust-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-trust-500/20"
+        className="mt-1.5 w-full flex-1 resize-none rounded-xl border border-trust-200 bg-paper px-4 py-2.5 text-sm text-trust-900 placeholder:text-trust-700/40 focus-visible:border-trust-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-trust-500/20"
       />
     </div>
   )

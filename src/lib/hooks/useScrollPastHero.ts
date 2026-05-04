@@ -10,21 +10,47 @@ export function useScrollPastHero(targetId: string = 'hero', enabled: boolean = 
   const [past, setPast] = useState(false)
 
   useEffect(() => {
-    if (!enabled) return
-    const target = document.getElementById(targetId)
-    if (!target) return
+    if (!enabled) {
+      setPast(false)
+      return
+    }
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const entry = entries[0]
-        if (!entry) return
-        setPast(!entry.isIntersecting)
-      },
-      { threshold: 0, rootMargin: '-64px 0px 0px 0px' },
-    )
+    let intersectionObserver: IntersectionObserver | null = null
+    let mutationObserver: MutationObserver | null = null
 
-    observer.observe(target)
-    return () => observer.disconnect()
+    const attach = (target: Element) => {
+      intersectionObserver = new IntersectionObserver(
+        (entries) => {
+          const entry = entries[0]
+          if (!entry) return
+          setPast(!entry.isIntersecting)
+        },
+        { threshold: 0, rootMargin: '-64px 0px 0px 0px' },
+      )
+      intersectionObserver.observe(target)
+    }
+
+    const initial = document.getElementById(targetId)
+    if (initial) {
+      attach(initial)
+    } else {
+      // Hero may not be in the DOM yet (e.g., lazy-loaded route still suspended
+      // on a hard refresh). Watch for it to appear, then attach.
+      mutationObserver = new MutationObserver(() => {
+        const found = document.getElementById(targetId)
+        if (found) {
+          mutationObserver?.disconnect()
+          mutationObserver = null
+          attach(found)
+        }
+      })
+      mutationObserver.observe(document.body, { childList: true, subtree: true })
+    }
+
+    return () => {
+      intersectionObserver?.disconnect()
+      mutationObserver?.disconnect()
+    }
   }, [targetId, enabled])
 
   return past

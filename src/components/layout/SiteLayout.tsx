@@ -4,9 +4,11 @@ import { Header } from './Header'
 import { Footer } from './Footer'
 import { WhatsAppFloat } from './WhatsAppFloat'
 import { ToastProvider } from '@/components/ui/Toast'
+import { useHashScroll } from '@/lib/hooks/useHashScroll'
 
 export function SiteLayout() {
   const { t } = useTranslation('common')
+  useHashScroll()
   return (
     <ToastProvider>
       <div className="flex min-h-screen flex-col bg-paper text-ink">

@@ -1,31 +1,28 @@
 {
   "ui": {
     "title": "Clinic Tour",
-    "lede": "Get a feel for the clinic before you arrive. Use the buttons below to move from room to room.",
-    "currentLabel": "You are here",
+    "lede": "Get a feel for the clinic before you arrive. Move from room to room — each stop is connected by a short walk through the corridor.",
+    "stepLabel": "Stop",
+    "progressLabel": "Progress",
+    "navTitle": "Other stops",
+    "travelingTo": "Walking to",
+    "transitionTag": "Transition video",
     "loadingTransition": "Loading transition…",
-    "navTitle": "Other areas"
+    "expandDetails": "Show details",
+    "collapseDetails": "Hide details"
   },
   "points": {
     "entrance": {
-      "title": "Clinic Entrance",
-      "description": "A warm, calm, modern reception. Our team greets you by name, confirms your appointment, and helps you complete any required forms."
+      "title": "Entrance",
+      "description": "From the moment you step inside, a calm and bright welcome. Natural light, plain materials — it feels less like a clinic, more like a guest house."
     },
     "waiting-area": {
       "title": "Waiting Area",
-      "description": "A quiet, family-friendly space with natural light. Tea, coffee, and free Wi-Fi are available. Wait times are kept short."
-    },
-    "consultation-room": {
-      "title": "Consultation Room",
-      "description": "A private room where Op. Dr. Kaan Işık reviews your imaging with you and walks through your treatment options in plain language."
+      "description": "A quiet preparation space with soft lighting and few people. Tea service, paper magazines and unhurried seating."
     },
     "examination-room": {
       "title": "Examination Room",
-      "description": "A purpose-built room for physical examination, designed around patient privacy and comfort."
-    },
-    "ekg-usg-room": {
-      "title": "ECG / Ultrasound Room",
-      "description": "A fully equipped room for ECG, echocardiography, and vascular Doppler. Most results are shared with you within the same visit."
+      "description": "Sterile, modern, but without losing the conversation. Clinical needs handled fully without compromising the patient relationship."
     }
   }
 }
