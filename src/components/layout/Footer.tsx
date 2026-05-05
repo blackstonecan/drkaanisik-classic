@@ -28,7 +28,7 @@ export function Footer() {
             {t('footer.privacy')}
           </a>
           <a
-            href="https://github.com/blackstonecan"
+            href="https://emrecankaratas.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-trust-700"
@@ -57,6 +57,11 @@ export function Footer() {
             <MessageCircle className="h-4 w-4" aria-hidden />
           </a>
         </div>
+      </div>
+      <div className="border-t border-trust-100">
+        <p className="container-page py-4 text-center text-[11px] leading-relaxed text-trust-700/60">
+          {t('footer.disclaimer')}
+        </p>
       </div>
     </footer>
   )

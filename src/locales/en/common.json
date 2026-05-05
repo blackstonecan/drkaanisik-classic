@@ -28,7 +28,8 @@
   "footer": {
     "copyright": "© 2026 Op. Dr. Kaan Işık. All rights reserved.",
     "privacy": "Privacy",
-    "portfolioBy": "Frontend by Emre Can Karataş"
+    "portfolioBy": "Created by Emre Can Karataş",
+    "disclaimer": "This is a fictional portfolio site. Op. Dr. Kaan Işık is not a real doctor and nothing on this site represents a real medical practice, statistic, or identity."
   },
   "loading": "Loading…",
   "skipToContent": "Skip to content",

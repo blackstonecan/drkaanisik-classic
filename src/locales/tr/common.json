@@ -28,7 +28,8 @@
   "footer": {
     "copyright": "© 2026 Op. Dr. Kaan Işık. Tüm hakları saklıdır.",
     "privacy": "Gizlilik",
-    "portfolioBy": "Frontend: Emre Can Karataş"
+    "portfolioBy": "Emre Can Karataş tarafından yapıldı",
+    "disclaimer": "Bu kurgusal bir portfolyo sitesidir. Op. Dr. Kaan Işık gerçek bir doktor değildir; bu sitede yer alan hiçbir bilgi, istatistik veya kimlik gerçek bir tıbbi uygulamayı temsil etmez."
   },
   "loading": "Yükleniyor…",
   "skipToContent": "İçeriğe atla",
