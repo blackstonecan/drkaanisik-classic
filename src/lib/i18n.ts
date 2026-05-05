@@ -22,7 +22,7 @@ type LocaleModule = { default: ResourceKey }
 // bundle ships none of the translation data; only what's needed for the
 // current locale is loaded.
 const localeFiles = import.meta.glob<LocaleModule>(
-  '/src/locales/(tr|en|de)/*.json',
+  '/src/locales/{tr,en,de}/*.json',
 )
 
 const viteGlobBackend: BackendModule = {
