@@ -109,17 +109,21 @@ export function TourStage() {
       <div className="relative flex w-full flex-col justify-end overflow-hidden min-h-[clamp(460px,72dvh,720px)] md:block md:min-h-0 md:aspect-video">
         <AnimatePresence mode="popLayout">
           {!isTransitioning ? (
-            <motion.img
+            <motion.div
               key={`scene-${current}`}
-              src={currentPoint.image}
-              alt=""
-              aria-hidden
-              initial={{ opacity: 0, scale: 1.04 }}
-              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5, ease: 'easeOut' }}
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+              className="absolute inset-0"
+              aria-hidden
+            >
+              <img
+                src={currentPoint.image}
+                alt=""
+                className="h-full w-full object-cover tour-kenburns"
+              />
+            </motion.div>
           ) : legVideo ? (
             <motion.video
               key={`video-${phase}-${pending}`}

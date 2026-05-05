@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { AnimatePresence, motion } from 'framer-motion'
 import doctor from '@/data/doctor.json'
 import { ExpandToggle } from '@/components/ui/ExpandToggle'
+import { Reveal } from '@/components/ui/Reveal'
 import { StatsGrid } from './StatsGrid'
 
 type EducationItem = { period: string; institution: string; detail: string }
@@ -24,7 +25,7 @@ export function DoctorSection() {
 
   return (
     <section id="doctor" className="container-page py-20 md:py-28">
-      <div className="grid gap-10 md:grid-cols-[minmax(0,360px)_1fr] md:gap-16">
+      <Reveal className="grid gap-10 md:grid-cols-[minmax(0,360px)_1fr] md:gap-16">
         <div>
           <div className="aspect-[3/4] overflow-hidden rounded-3xl bg-trust-100 ring-1 ring-trust-100">
             <img
@@ -116,7 +117,7 @@ export function DoctorSection() {
             )}
           </AnimatePresence>
         </div>
-      </div>
+      </Reveal>
       <div className="mt-16">
         <StatsGrid />
       </div>

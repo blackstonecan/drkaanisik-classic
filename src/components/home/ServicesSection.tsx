@@ -4,6 +4,7 @@ import { Star } from 'lucide-react'
 import services from '@/data/services.json'
 import type { ServiceCategory } from '@/lib/types'
 import { CategoryIcon } from '@/components/ui/iconRegistry'
+import { Reveal } from '@/components/ui/Reveal'
 
 const categories = services.categories as ServiceCategory[]
 
@@ -13,12 +14,12 @@ export function ServicesSection() {
   return (
     <section id="services" className="bg-white py-20 md:py-28">
       <div className="container-page">
-        <div className="max-w-2xl">
+        <Reveal className="max-w-2xl">
           <h2 className="font-display text-3xl font-semibold text-trust-700 md:text-4xl">
             {t('services.heading')}
           </h2>
           <p className="mt-4 text-trust-700/70">{t('services.lede')}</p>
-        </div>
+        </Reveal>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {categories.map((cat, i) => (
             <ServiceCard key={cat.slug} category={cat} index={i} />

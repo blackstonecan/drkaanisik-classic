@@ -7,6 +7,7 @@ import { InstagramIcon } from '@/components/ui/InstagramIcon'
 import { Switch } from '@/components/ui/Switch'
 import { useToast } from '@/lib/hooks/useToast'
 import { useLocale } from '@/lib/hooks/useLocale'
+import { Reveal } from '@/components/ui/Reveal'
 
 type ContactMethod = 'phone' | 'email'
 
@@ -69,14 +70,17 @@ export function ContactSection() {
   return (
     <section id="contact" className="bg-trust-50/40 py-20 md:py-28">
       <div className="container-page">
-        <div className="max-w-2xl">
+        <Reveal className="max-w-2xl">
           <h2 className="font-display text-3xl font-semibold text-trust-700 md:text-4xl">
             {th('contact.heading')}
           </h2>
           <p className="mt-4 text-trust-700/70">{th('contact.lede')}</p>
-        </div>
+        </Reveal>
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)]">
+        <Reveal
+          delay={0.08}
+          className="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)]"
+        >
           <form
             onSubmit={handleSubmit}
             noValidate
@@ -230,7 +234,7 @@ export function ContactSection() {
               </p>
             </div>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   )

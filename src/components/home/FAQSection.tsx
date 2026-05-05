@@ -5,6 +5,7 @@ import { ChevronDown } from 'lucide-react'
 import faqData from '@/data/faq.json'
 import type { FAQItem as FAQType } from '@/lib/types'
 import { cn } from '@/lib/utils'
+import { Reveal } from '@/components/ui/Reveal'
 
 const items = faqData.items as FAQType[]
 
@@ -14,13 +15,16 @@ export function FAQSection() {
 
   return (
     <section id="faq" className="container-page py-20 md:py-28">
-      <div className="max-w-2xl">
+      <Reveal className="max-w-2xl">
         <h2 className="font-display text-3xl font-semibold text-trust-700 md:text-4xl">
           {t('faq.heading')}
         </h2>
         <p className="mt-4 text-trust-700/70">{t('faq.lede')}</p>
-      </div>
-      <div className="mx-auto mt-12 max-w-3xl divide-y divide-trust-100 overflow-hidden rounded-3xl bg-white ring-1 ring-trust-100">
+      </Reveal>
+      <Reveal
+        delay={0.08}
+        className="mx-auto mt-12 max-w-3xl divide-y divide-trust-100 overflow-hidden rounded-3xl bg-white ring-1 ring-trust-100"
+      >
         {items.map((item) => (
           <FAQAccordionItem
             key={item.slug}
@@ -31,7 +35,7 @@ export function FAQSection() {
             }
           />
         ))}
-      </div>
+      </Reveal>
     </section>
   )
 }

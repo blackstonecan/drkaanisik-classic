@@ -1,6 +1,7 @@
-import { Suspense, useMemo } from 'react'
+import { Suspense, useMemo, useRef } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { motion, useScroll, useSpring } from 'framer-motion'
 import { ArrowLeft, Calendar, Clock, Eye } from 'lucide-react'
 import { findPostByLocaleSlug, getAllPosts } from '@/lib/blog'
 import { getMdxComponent } from '@/lib/blogContent'
@@ -18,6 +19,16 @@ export default function BlogPost() {
   const { t: tc } = useTranslation('common')
   const { t: ts } = useTranslation('services')
   const locale = useLocale()
+  const articleRef = useRef<HTMLElement>(null)
+  const { scrollYProgress } = useScroll({
+    target: articleRef,
+    offset: ['start start', 'end end'],
+  })
+  const progressScaleX = useSpring(scrollYProgress, {
+    stiffness: 120,
+    damping: 24,
+    restDelta: 0.001,
+  })
 
   const post = findPostByLocaleSlug(slug, locale)
   const MdxBody = useMemo(
@@ -45,7 +56,12 @@ export default function BlogPost() {
   const readingTime = t(`posts.${post.slug}.readingTime`, { defaultValue: 5 })
 
   return (
-    <article>
+    <article ref={articleRef}>
+      <motion.div
+        aria-hidden
+        style={{ scaleX: progressScaleX }}
+        className="fixed inset-x-0 top-0 z-[60] h-[3px] origin-left bg-accent-500"
+      />
       <header className="relative isolate overflow-hidden bg-trust-900">
         <img
           src={post.image}
